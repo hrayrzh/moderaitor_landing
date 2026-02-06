@@ -1,0 +1,17 @@
+/* TEAM */
+Organization: All for Equal Rights Foundation
+Contact: info@moderaitor.app
+Location: Armenia
+
+/* THANKS */
+AI Technology: Claude (Anthropic)
+Framework: Bootstrap
+Icons: Font Awesome
+
+/* SITE */
+Last update: 2026/02/06
+Language: English
+Doctype: HTML5
+Standards: HTML5, CSS3, JavaScript
+Components: AI-powered hate speech detection
+Software: moderAItor Platform

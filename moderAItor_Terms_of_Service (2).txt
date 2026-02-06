@@ -1,0 +1,37 @@
+Terms of Service
+Last updated: February 2026
+1. Acceptance of Terms
+By accessing or using moderAItor, you agree to be bound by these Terms of Service. If you do not agree to these Terms, you may not use the service.
+2. Description of the Service
+moderAItor is an AI-based content analysis and hate speech detection tool designed to assist media organizations and civil society organizations in monitoring publicly available comments on platforms such as Facebook, Instagram, and YouTube.
+The service provides automated classification and flagging of content to support human moderation decisions. moderAItor functions as a decision-support tool and does not replace human judgment, platform-level enforcement mechanisms, or appeal processes. moderAItor does not perform platform-level enforcement, account-level actions, or automated sanctions against users.
+3. Eligibility and Authorized Use
+The service is intended for professional and organizational use only. By using moderAItor, you confirm that you are authorized to act on behalf of your organization and that you have the necessary permissions to access and moderate the relevant social media accounts.
+You agree to use moderAItor solely for lawful purposes and in compliance with applicable laws, platform terms, and community standards.
+4. Content and Data Sources
+moderAItor processes only publicly available content obtained in accordance with the terms and policies of the relevant platforms. The service does not access private messages, closed groups, private accounts, or content restricted by platform privacy settings.
+You remain responsible for ensuring that your use of the service complies with the terms and policies of Meta, YouTube, and any other connected platform.
+5. Moderation Actions
+moderAItor may flag content as potentially harmful or hateful and facilitate moderation actions through platform-native tools. All moderation actions are initiated and executed by the user using the tools provided by the respective platform. moderAItor does not independently remove, alter, suppress, or enforce content.
+6. AI Limitations
+moderAItor relies on automated systems that may produce false positives or false negatives. The service does not guarantee the accuracy, completeness, or correctness of AI-generated classifications. Users acknowledge that all outputs must be reviewed by a human moderator before any moderation action is taken.
+7. Research and System Improvement
+Data processed through moderAItor may be retained and used for research, system improvement, and AI model training purposes, in accordance with the Privacy Policy and applicable data-protection laws mentioned. Where feasible, such data is anonymized or aggregated.
+8. Intellectual Property
+All intellectual property rights related to moderAItor, including software, models, and documentation, remain the property of the service provider. These Terms do not grant users ownership rights to any underlying technology or models.
+9. Suspension or Termination
+We reserve the right to suspend or terminate access to the moderAItor service if it is used in violation of these Terms, applicable laws, or platform policies, or in a manner that may cause harm, legal risk, or misuse of the system. Any suspension or termination applies solely to access to the moderAItor service and does not affect the user’s platform accounts.
+10. Disclaimer of Warranties
+moderAItor is provided on an “as is” and “as available” basis. We make no warranties regarding uninterrupted availability, error-free operation, or suitability for a particular purpose.
+11. Limitation of Liability
+To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, or consequential damages arising from the use of or inability to use moderAItor, including moderation decisions or actions taken by users based on AI-generated outputs.
+12. Changes to the Terms
+We may update these Terms from time to time. Continued use of moderAItor after updated Terms are published constitutes acceptance of the revised Terms. The users will be notified about any changes or updates via registered email.
+13. Governing Law
+These Terms are governed by applicable law, without prejudice to mandatory data-protection or consumer-protection provisions.
+14. Contact and Operator
+For questions regarding these Terms, please contact: info@moderaitor.app
+moderAItor is operated and provided by All for Equal Rights Foundation, a legally registered entity under the laws of Republic of Armenia.
+
+
+

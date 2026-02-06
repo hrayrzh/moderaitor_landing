@@ -1,0 +1,32 @@
+Data Deletion, Behavioral Analysis and Moderation Decisions
+Last updated: February 2026
+moderAItor processes only publicly available content published under media or organizational pages on social media platforms, in accordance with applicable data-protection laws and the policies of Facebook, Instagram, YouTube, and other supported platforms. The tool does not access private profiles, private groups, or content restricted by platform privacy settings.
+Behavioral analysis and moderation logic
+moderAItor does not create personal profiles of individuals in the traditional sense and does not assess users based on personal characteristics, interests, or private activity.
+The tool may analyze repeated interactions associated with publicly available content on a specific page or media account for the sole purpose of applying the editorial moderation policy adopted by that media or organization.
+This analysis is limited to identifying patterns of publicly visible behavior, such as the repeated posting of comments that meet the criteria defined in the moderation policy (including hate speech, harassment, threats, or other prohibited content).
+Where repeated violations are identified, moderAItor may issue notifications or warnings to the page moderators regarding such patterns. Any decision on how to handle these cases is taken exclusively by the page moderators, in accordance with their moderation policies and applicable platform rules.
+All moderation actions are subject to human oversight, particularly in borderline or disputed cases, and are documented for accountability and audit purposes.
+Data deletion and anonymization requests
+Individuals may request the deletion of data processed by moderAItor by sending a request to info@moderaitor.app with the subject line “Data Deletion Request - moderAItor.”
+Requests must include a link to the relevant public content and any publicly visible identifiers (such as a username or user ID) to allow verification.
+Requests are handled as follows:
+Full deletion
+Data is fully deleted from moderAItor’s systems when:
+? the request concerns a specific piece of public content, and
+? the data is not required for maintaining research integrity, platform security, or compliance with legal obligations.
+Anonymization
+Data may be anonymized instead of fully deleted when:
+? the content has already been incorporated into aggregated analysis, moderation statistics, or system training processes, and
+? removing all personal identifiers (such as usernames, user IDs, profile links, or page references) is sufficient to eliminate the possibility of identifying an individual.
+In such cases, only non-identifiable, aggregated information (for example, language patterns or classification outcomes) is retained.
+moderAItor does not engage in cross-platform tracking, does not build long-term personal user profiles, and does not use behavioral analysis for advertising, targeting, or ranking purposes.
+moderAItor does not control content hosted on third-party platforms. Requests related to content visibility, removal, or enforcement on Facebook, Instagram, or YouTube must be submitted directly through the respective platform’s official mechanisms.
+
+
+
+
+
+1
+
+
