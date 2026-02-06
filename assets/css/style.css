@@ -1586,6 +1586,10 @@ a.badge:not(.btn):hover,
 
 .primary-bg {
   background-color: var(--primary-bg-color-2);
+  color: var(--primary-t-color);
+}
+.primary-bg p {
+  color: var(--primary-p-color);
 }
 .primary-bg .btn-bordered::after {
   background-color: var(--primary-bg-color-2);

@@ -1833,6 +1833,11 @@ a.badge:not(.btn),
 
 .primary-bg {
 	background-color: var(--primary-bg-color-2);
+	color: var(--primary-t-color);
+
+	p {
+		color: var(--primary-p-color);
+	}
 
 	.btn-bordered {
 		&::after {
