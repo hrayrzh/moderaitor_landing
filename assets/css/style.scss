@@ -68,7 +68,7 @@
 	--primary-font: "Poppins", sans-serif;
 	--secondary-font: "Poppins", sans-serif;
 
-	--h1-size: 4rem;
+	--h1-size: 2rem;
 	--h1-weight: 600;
 
 	--h2-size: 3rem;
@@ -1857,6 +1857,19 @@ a.badge:not(.btn),
 	background-repeat: no-repeat;
 	overflow: hidden;
 	z-index: 1;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 80px 0;
+
+	@media (max-width: 991px) {
+		min-height: auto;
+		padding: 100px 0 60px;
+	}
+
+	@media (max-width: 767px) {
+		padding: 120px 0 40px;
+	}
 
 	.hero-content {
 		position: relative;
@@ -2690,9 +2703,20 @@ a.badge:not(.btn),
 
 .modal-body {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	padding: 25px 25px 75px;
+	padding: 25px 0 75px;
+
+	.items {
+		width: 100%;
+		padding: 0 25px;
+
+		// Show hidden legal links in mobile menu
+		.nav-item.d-none {
+			display: block !important;
+		}
+	}
 }
 
 /* #endregion Modal */
@@ -3081,3 +3105,65 @@ span.page-numbers {
 }
 
 /* #endregion All Media Queries */
+
+/*----------------------------------------------
+	Content Wrapper (Privacy, Terms, Data Deletion pages)
+----------------------------------------------*/
+.content-wrapper {
+	background: white;
+	padding: 50px;
+	border-radius: 1rem;
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.08);
+
+	@media (max-width: 991px) {
+		padding: 40px 30px;
+	}
+
+	@media (max-width: 767px) {
+		padding: 30px 20px;
+		border-radius: 0.5rem;
+	}
+
+	@media (max-width: 575px) {
+		padding: 20px 15px;
+	}
+
+	h3, h4, h5 {
+		color: var(--primary-t-color);
+	}
+
+	p, ul, ol {
+		line-height: 1.7;
+	}
+
+	ul, ol {
+		padding-left: 1.5rem;
+
+		@media (max-width: 575px) {
+			padding-left: 1.2rem;
+		}
+	}
+
+	li {
+		margin-bottom: 0.5rem;
+	}
+
+	.alert {
+		@media (max-width: 575px) {
+			padding: 15px;
+			font-size: 0.9rem;
+		}
+	}
+}
+
+.content-section {
+	padding: 80px 0;
+
+	@media (max-width: 991px) {
+		padding: 60px 0;
+	}
+
+	@media (max-width: 767px) {
+		padding: 40px 0;
+	}
+}

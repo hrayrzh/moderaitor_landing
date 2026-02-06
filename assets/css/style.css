@@ -56,7 +56,7 @@
 :root {
   --primary-font: "Poppins", sans-serif;
   --secondary-font: "Poppins", sans-serif;
-  --h1-size: 4rem;
+  --h1-size: 2rem;
   --h1-weight: 600;
   --h2-size: 3rem;
   --h2-weight: 600;
@@ -1604,6 +1604,21 @@ a.badge:not(.btn):hover,
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+@media (max-width: 991px) {
+  .hero-section {
+    min-height: auto;
+    padding: 100px 0 60px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 120px 0 40px;
+  }
 }
 .hero-section .hero-content {
   position: relative;
@@ -2289,9 +2304,17 @@ a.badge:not(.btn):hover,
 
 .modal-body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 25px 25px 75px;
+  padding: 25px 0 75px;
+}
+.modal-body .items {
+  width: 100%;
+  padding: 0 25px;
+}
+.modal-body .items .nav-item.d-none {
+  display: block !important;
 }
 
 /* #endregion Modal */
@@ -2555,4 +2578,75 @@ span.page-numbers:hover:not(.current) {
   }
   /* #endregion Modal */
 }
-/* #endregion All Media Queries *//*# sourceMappingURL=style.css.map */
+/* #endregion All Media Queries */
+
+/*----------------------------------------------
+	Content Wrapper (Privacy, Terms, Data Deletion pages)
+----------------------------------------------*/
+.content-wrapper {
+  background: white;
+  padding: 50px;
+  border-radius: 1rem;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 991px) {
+  .content-wrapper {
+    padding: 40px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .content-wrapper {
+    padding: 30px 20px;
+    border-radius: 0.5rem;
+  }
+}
+@media (max-width: 575px) {
+  .content-wrapper {
+    padding: 20px 15px;
+  }
+}
+.content-wrapper h3,
+.content-wrapper h4,
+.content-wrapper h5 {
+  color: var(--primary-t-color);
+}
+.content-wrapper p,
+.content-wrapper ul,
+.content-wrapper ol {
+  line-height: 1.7;
+}
+.content-wrapper ul,
+.content-wrapper ol {
+  padding-left: 1.5rem;
+}
+@media (max-width: 575px) {
+  .content-wrapper ul,
+  .content-wrapper ol {
+    padding-left: 1.2rem;
+  }
+}
+.content-wrapper li {
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 575px) {
+  .content-wrapper .alert {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}
+
+.content-section {
+  padding: 80px 0;
+}
+@media (max-width: 991px) {
+  .content-section {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 767px) {
+  .content-section {
+    padding: 40px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

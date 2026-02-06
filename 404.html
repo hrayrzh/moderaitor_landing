@@ -55,14 +55,15 @@
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
-					</ul>
-
-					<!-- Navbar Icons -->
-					<ul class="navbar-nav icons">
-						<li class="nav-item">
-							<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#search">
-								<i class="icon-magnifier"></i>
-							</a>
+						<!-- Legal links - visible only in mobile menu -->
+						<li class="nav-item d-none">
+							<a class="nav-link" href="privacy.html">Privacy Policy</a>
+						</li>
+						<li class="nav-item d-none">
+							<a class="nav-link" href="terms.html">Terms of Service</a>
+						</li>
+						<li class="nav-item d-none">
+							<a class="nav-link" href="data-deletion.html">Data Deletion</a>
 						</li>
 					</ul>
 
@@ -94,36 +95,6 @@
 		</section>
 		<!-- ***** Error Area End ***** -->
 
-		<!--====== Modal Search Area Start ======-->
-		<div id="search" class="p-0 modal fade">
-			<div class="modal-dialog modal-dialog-slideout">
-				<div class="modal-content full">
-					<div class="modal-header" data-bs-dismiss="modal">
-						Search <i class="icon-close"></i>
-					</div>
-					<div class="modal-body">
-						<form class="row">
-							<div class="col-12 align-self-center p-0">
-								<div class="row">
-									<div class="col-12 p-0 pb-3">
-										<h2 class="modal-heading mt-0 mb-3">What are you looking for?</h2>
-										<form class="contact-form outlined">
-											<div class="form-floating mb-3">
-												<input type="text" class="form-control" name="keywords" id="keywords" placeholder="Enter Keywords">
-												<label for="keywords">Enter Keywords</label>
-											</div>
-											<input type="submit" class="search-submit" value="Search">
-										</form>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--====== Modal Search Area End ======-->
-
 		<!--====== Modal Responsive Menu Area Start ======-->
 		<div id="menu" class="modal fade p-0">
 			<div class="modal-dialog modal-dialog-slideout">
@@ -132,10 +103,8 @@
 						Menu <i class="icon-close"></i>
 					</div>
 					<div class="menu modal-body">
-						<div class="row w-100">
-							<div class="items p-0 col-12 text-center">
-								<!-- Append [navbar] -->
-							</div>
+						<div class="items p-0 text-center">
+							<!-- Append [navbar] -->
 						</div>
 					</div>
 				</div>

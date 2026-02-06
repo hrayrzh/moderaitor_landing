@@ -91,14 +91,15 @@
 						<li class="nav-item">
 							<a class="nav-link smooth-anchor" href="index.html#contact">Contact</a>
 						</li>
-					</ul>
-
-					<!-- Navbar Icons -->
-					<ul class="navbar-nav icons">
-						<li class="nav-item">
-							<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#search">
-								<i class="icon-magnifier"></i>
-							</a>
+						<!-- Legal links - visible only in mobile menu -->
+						<li class="nav-item d-none">
+							<a class="nav-link" href="privacy.html">Privacy Policy</a>
+						</li>
+						<li class="nav-item d-none">
+							<a class="nav-link" href="terms.html">Terms of Service</a>
+						</li>
+						<li class="nav-item d-none">
+							<a class="nav-link" href="data-deletion.html">Data Deletion</a>
 						</li>
 					</ul>
 
@@ -136,11 +137,11 @@
 		<!-- ***** Breadcrumb Area End ***** -->
 
 		<!-- ***** Content Area Start ***** -->
-		<section class="content-section" style="padding: 80px 0;">
+		<section class="content-section">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-12 col-lg-10">
-						<div class="content-wrapper" style="background: white; padding: 50px; border-radius: 1rem; box-shadow: 0 3px 20px rgba(0,0,0,0.08);">
+					<div class="col-12 col-md-11 col-lg-10">
+						<div class="content-wrapper">
 							<p class="text-muted mb-4"><strong>Last updated:</strong> February 2026</p>
 
 							<h3 class="mt-4 mb-3">1. Acceptance of Terms</h3>
@@ -201,7 +202,7 @@
 			<div class="footer-top">
 				<div class="container">
 					<div class="row items">
-						<div class="col-12 col-sm-6 col-lg-3 item">
+						<div class="col-12 col-sm-6 col-lg-4 item">
 							<!-- Footer Items -->
 							<div class="footer-items">
 								<!-- Logo -->
@@ -233,7 +234,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-3 item">
+						<div class="col-12 col-sm-6 col-lg-4 item">
 							<!-- Footer Items -->
 							<div class="footer-items">
 								<h4 class="footer-title mt-0">Useful Links</h4>
@@ -258,7 +259,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-3 item">
+						<div class="col-12 col-sm-6 col-lg-4 item">
 							<!-- Footer Items -->
 							<div class="footer-items">
 								<h4 class="footer-title mt-0">Product Help</h4>
@@ -283,22 +284,6 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-3 item">
-							<!-- Footer Items -->
-							<div class="footer-items">
-								<h4 class="footer-title mt-0">Download</h4>
-
-								<!-- Download Button -->
-								<div class="button-group download-button">
-									<a href="#">
-										<img src="assets/img/content/google-play-black.png" alt="">
-									</a>
-									<a href="#">
-										<img src="assets/img/content/app-store-black.png" alt="">
-									</a>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -319,36 +304,6 @@
 		</footer>
 		<!--====== Footer Area End ======-->
 
-		<!--====== Modal Search Area Start ======-->
-		<div id="search" class="p-0 modal fade">
-			<div class="modal-dialog modal-dialog-slideout">
-				<div class="modal-content full">
-					<div class="modal-header" data-bs-dismiss="modal">
-						Search <i class="icon-close"></i>
-					</div>
-					<div class="modal-body">
-						<form class="row">
-							<div class="col-12 align-self-center p-0">
-								<div class="row">
-									<div class="col-12 p-0 pb-3">
-										<h2 class="modal-heading mt-0 mb-3">What are you looking for?</h2>
-										<form class="contact-form outlined">
-											<div class="form-floating mb-3">
-												<input type="text" class="form-control" name="keywords" id="keywords" placeholder="Enter Keywords">
-												<label for="keywords">Enter Keywords</label>
-											</div>
-											<input type="submit" class="search-submit" value="Search">
-										</form>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--====== Modal Search Area End ======-->
-
 		<!--====== Modal Responsive Menu Area Start ======-->
 		<div id="menu" class="modal fade p-0">
 			<div class="modal-dialog modal-dialog-slideout">
@@ -357,10 +312,8 @@
 						Menu <i class="icon-close"></i>
 					</div>
 					<div class="menu modal-body">
-						<div class="row w-100">
-							<div class="items p-0 col-12 text-center">
-								<!-- Append [navbar] -->
-							</div>
+						<div class="items p-0 text-center">
+							<!-- Append [navbar] -->
 						</div>
 					</div>
 				</div>
