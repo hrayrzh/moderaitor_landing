@@ -208,7 +208,7 @@
 				spaceBetween: 30
 			},
 			1023: {
-				slidesPerView: 4,
+				slidesPerView: 2,
 				spaceBetween: 30
 			}
 		},

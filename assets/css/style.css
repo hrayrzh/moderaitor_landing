@@ -1846,28 +1846,39 @@ a.badge:not(.btn):hover,
   overflow: hidden;
 }
 .features-section .features-slider-wrapper {
-  background: rgba(0, 0, 0, 0) url("../img/content/mobile-slider.png") no-repeat scroll top center/cover;
-  padding: 67px 23px 90px 26px;
-  background-size: 100%;
-  max-width: 290px;
+  background: rgba(0, 0, 0, 0) url("../img/desktop-slider.png") no-repeat scroll center center;
+  background-size: contain;
+  padding: 2.2% 10.5% 8.4% 9.5%;
+  max-width: 650px;
   margin: 0 auto;
+  aspect-ratio: 513 / 320;
 }
 .features-section .features-slider-wrapper .features-slider {
   padding: 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .features-section .features-slider-wrapper .slide-item {
   margin: 0;
+  aspect-ratio: 410 / 266;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.features-section .features-slider-wrapper .slide-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 @media (max-width: 767px) {
   .features-section .features-slider-wrapper {
-    padding: 52px 18px 90px 21px;
-    max-width: 245px;
+    max-width: 450px;
   }
 }
 @media (max-width: 575px) {
   .features-section .features-slider-wrapper {
-    padding: 52px 18px 90px 21px;
-    max-width: 220px;
+    max-width: 350px;
   }
 }
 .features-section .features-item.list-group .list-group-item {
@@ -2030,6 +2041,7 @@ a.badge:not(.btn):hover,
   font-size: 1.3rem;
   font-weight: 500;
   color: var(--primary-t-color);
+  padding-right: 4rem;
 }
 #sapp-accordion .accordion-item .accordion-button::after {
   position: absolute;
