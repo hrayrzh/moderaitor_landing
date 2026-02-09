@@ -19,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "info@moderaitor.app";
+        $recipient = "info@allrights.am, info@moderaitor.app";
 
         // Set the email subject.
         $subject = "New contact from $name";

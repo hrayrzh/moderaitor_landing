@@ -1,7 +1,7 @@
 /* TEAM */
 Organization: All for Equal Rights Foundation
-Contact: info@moderaitor.app
-Location: Armenia
+Contact: info@allrights.am, info@moderaitor.app
+Location: Gyumri, Lisinyan Street, Building 10, Apartment 27, Armenia
 
 /* THANKS */
 AI Technology: Claude (Anthropic)
