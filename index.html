@@ -781,7 +781,7 @@
 						<div class="col-12">
 							<!-- Copyright Area -->
 							<div class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between align-items-center text-center py-4">
-								<span>&copy; 2024 moderAItor | All rights reserved.</span>
+								<span>&copy; <span id="footer-year"></span> moderAItor | Powered by <a href="https://www.allrights.am/" target="_blank" rel="noopener noreferrer">All Rights Foundation</a></span>
 								<span>AI assisted moderation for safer conversations</span>
 							</div>
 						</div>
@@ -839,6 +839,7 @@
 
 	<!-- Main js -->
 	<script src="assets/js/main.js" defer></script>
+	<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
 </body>
 
 </html>
