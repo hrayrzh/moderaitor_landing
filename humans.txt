@@ -1,7 +1,7 @@
 /* TEAM */
-Organization: All for Equal Rights Foundation
-Contact: info@allrights.am, info@moderaitor.app
-Location: Gyumri, Lisinyan Street, Building 10, Apartment 27, Armenia
+Organization: Media Diversity Institute
+Contact: info@mdi.am, info@moderaitor.app
+Location: 9b Ghazar Parpetsi Street, Yerevan 0002, Armenia
 
 /* THANKS */
 AI Technology: Claude (Anthropic)

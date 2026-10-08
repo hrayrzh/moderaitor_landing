@@ -339,44 +339,53 @@
 
 	'use strict';
 
-	// Get the form.
 	var form = $('#contact-form');
-	// Get the messages div.
 	var formMessages = $('.form-message');
-	// Set up an event listener for the contact form.
-	$(form).submit(function (e) {
-		// Stop the browser from submitting the form.
+	var submitBtn = form.find('button[type="submit"]');
+
+	form.on('submit', function (e) {
 		e.preventDefault();
-		// Serialize the form data.
-		var formData = $(form).serialize();
-		// Submit the form using AJAX.
-		$.ajax({
-			type: 'POST',
-			url: $(form).attr('action'),
-			data: formData
+
+		var data = {
+			name: $('#name').val().trim(),
+			email: $('#email').val().trim(),
+			subject: $('#subject').val().trim(),
+			message: $('#message').val().trim(),
+		};
+
+		submitBtn.prop('disabled', true);
+		formMessages.removeClass('success error').text('');
+
+		fetch('https://api.moderaitor.app/api/contact', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(data),
 		})
-		.done(function (response) {
-			// Make sure that the formMessages div has the 'success' class.
-			$(formMessages).removeClass('error');
-			$(formMessages).addClass('success');
-
-			// Set the message text.
-			$(formMessages).text(response);
-
-			// Clear the form.
-			$('#contact-form input, #contact-form textarea').val('');
+		.then(function (res) {
+			return res.json().then(function (body) {
+				return { ok: res.ok, body: body };
+			});
 		})
-		.fail(function (data) {
-			// Make sure that the formMessages div has the 'error' class.
-			$(formMessages).removeClass('success');
-			$(formMessages).addClass('error');
-
-			// Set the message text.
-			if (data.responseText !== '') {
-				$(formMessages).text(data.responseText);
+		.then(function (result) {
+			if (result.ok) {
+				formMessages.removeClass('error').addClass('success').text('Thank you! Your message has been sent.');
+				form.find('input, textarea').val('');
 			} else {
-				$(formMessages).text('Oops! An error occured and your message could not be sent.');
+				var body = result.body;
+				var msg;
+				if (body.messages && typeof body.messages === 'object') {
+					msg = Object.values(body.messages).join(' ');
+				} else {
+					msg = body.message || 'Oops! Something went wrong. Please try again.';
+				}
+				formMessages.removeClass('success').addClass('error').text(msg);
 			}
+		})
+		.catch(function () {
+			formMessages.removeClass('success').addClass('error').text('Something went wrong. Please try again.');
+		})
+		.finally(function () {
+			submitBtn.prop('disabled', false);
 		});
 	});
 
