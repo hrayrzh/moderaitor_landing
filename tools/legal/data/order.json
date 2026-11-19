@@ -1,0 +1,1036 @@
+[
+ {
+  "type": "p",
+  "text": "ՀԱՎԵԼՎԱԾ 1  ·  APPENDIX 1",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "«moderAItor» ԱԲ ԳՈՐԾԻՔԻ ՕԳՏԱԳՈՐԾՄԱՆ ՊԱՏՎԵՐ",
+  "bold": true
+ },
+ {
+  "type": "p",
+  "text": "ORDER FOR THE USE OF THE \"moderAItor\" AI TOOL",
+  "bold": false
+ },
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Պատվեր №",
+       "bold": false
+      },
+      {
+       "text": "Order No.",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ամսաթիվ / Date",
+       "bold": false
+      },
+      {
+       "text": "«___» ____________ 20__ թ.",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "type": "p",
+  "text": "Սույն Պատվերը կարգավորվում է «moderAItor» Ծառայությունների մատուցման հիմնական պայմանագրով (MSA) և դրա Հավելվածներով, ներառյալ՝ Գաղտնիության քաղաքականությամբ (Հավելված 3), որը հրապարակված է https://moderaitor.app/privacy.html հասցեում։ MSA-ի գործող խմբագրությունը հրապարակված է https://moderaitor.app/msa.html հասցեում։ Սույն Պատվերում օգտագործվող տերմիններն ունեն MSA-ով սահմանված նշանակությունը։",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "This Order is governed by the terms of the moderAItor Master Service Agreement (MSA) and its Appendices, including the Privacy Policy (Appendix 3) published at https://moderaitor.app/privacy.html. The current version of the MSA is published at https://moderaitor.app/msa.html. Terms used in this Order have the meaning given to them in the MSA.",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "1. Հաճախորդի տվյալներ   Client Information",
+  "bold": false
+ },
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Կազմակերպության / պետական մարմնի / ԱՁ ամբողջական անվանում",
+       "bold": false
+      },
+      {
+       "text": "Full legal name of Organization / State Body / Individual Entrepreneur",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": []
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Իրավաբանական հասցե",
+       "bold": false
+      },
+      {
+       "text": "Registered Address",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": []
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "ՀՎՀՀ (առկայության դեպքում)",
+       "bold": false
+      },
+      {
+       "text": "TIN (if applicable)",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": []
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Լիազորված ներկայացուցչի անուն, ազգանուն, պաշտոն",
+       "bold": false
+      },
+      {
+       "text": "Authorized Representative Name, Surname, Position",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": []
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ներկայացուցչի լիազորության հիմքը",
+       "bold": false
+      },
+      {
+       "text": "Basis of Representative's Authority",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐ Կանոնադրություն / Charter",
+       "bold": false
+      },
+      {
+       "text": "☐ Լիազորագիր № ______, «___» ____________ 20__ / Power of Attorney No., date",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Էլ. փոստ (պաշտոնական ծանուցումների և Պատվերի հաստատման համար)",
+       "bold": false
+      },
+      {
+       "text": "Email (for official notices and Order confirmation)",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": []
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հեռախոսահամար",
+       "bold": false
+      },
+      {
+       "text": "Phone Number",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": []
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Կազմակերպաիրավական ձև / կարգավիճակ",
+       "bold": false
+      },
+      {
+       "text": "Legal Form / Status",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "________________________________________",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Պետական գրանցման համար (եթե կիրառելի է)",
+       "bold": false
+      },
+      {
+       "text": "State Registration Number (if applicable)",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "________________________________________",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "type": "p",
+  "text": "2. Ծառայության տվյալներ   Service Details",
+  "bold": false
+ },
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Սոցիալական հարթակներ",
+       "bold": false
+      },
+      {
+       "text": "Social Platforms",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐ Facebook     ☐ Instagram     ☐ YouTube",
+       "bold": false
+      },
+      {
+       "text": "☐ Այլ: _______",
+       "bold": false
+      },
+      {
+       "text": "Other",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Էջերի / ալիքների անվանումներ և հղումներ (URL)",
+       "bold": false
+      },
+      {
+       "text": "Names and Links (URLs) of Pages / Channels",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1. ______________________________________",
+       "bold": false
+      },
+      {
+       "text": "2. ______________________________________",
+       "bold": false
+      },
+      {
+       "text": "3. ______________________________________",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ամսական մեկնաբանությունների սահմանաչափ",
+       "bold": false
+      },
+      {
+       "text": "Monthly Comment Limit",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ընդհանուր սահմանաչափ՝ ______ մեկնաբանություն յուրաքանչյուր հաշվարկային ամսվա համար։",
+       "bold": false
+      },
+      {
+       "text": "☐ Ընդհանուր՝ Պատվերում նշված բոլոր էջերի/ալիքների համար",
+       "bold": false
+      },
+      {
+       "text": "☐ Առանձին՝ յուրաքանչյուր էջի/ալիքի համար (մանրամասները՝ կից ցանկում)",
+       "bold": false
+      },
+      {
+       "text": "Total limit: ______ comments per billing month.",
+       "bold": false
+      },
+      {
+       "text": "☐ Combined across all pages/channels listed in this Order",
+       "bold": false
+      },
+      {
+       "text": "☐ Separately for each page/channel (details in attached list)",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ծառայության մեկնարկ",
+       "bold": false
+      },
+      {
+       "text": "Service Start Date",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "«___» ____________ 20__",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ծառայության ժամկետ",
+       "bold": false
+      },
+      {
+       "text": "Service Term",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "______ ամիս՝ մինչև «___» ____________ 20__ թ. ներառյալ։",
+       "bold": false
+      },
+      {
+       "text": "______ months, through ____________ 20__, inclusive.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Տեխնիկական աջակցություն",
+       "bold": false
+      },
+      {
+       "text": "Technical Support",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "MSA-ի 6.2.4 կետի համաձայն՝ աշխատանքային օրերին, info@moderaitor.app հասցեով, դիմումն ստանալուց հետո՝ ոչ ուշ, քան 2 (երկու) աշխատանքային օրվա ընթացքում արձագանք։",
+       "bold": false
+      },
+      {
+       "text": "Այլ պայմաններ (չպետք է հակասեն MSA-ին). ______________________________",
+       "bold": false
+      },
+      {
+       "text": "In accordance with Clause 6.2.4 of the MSA: on working days via info@moderaitor.app, with a response within 2 (two) working days after receipt.",
+       "bold": false
+      },
+      {
+       "text": "Other terms (must not conflict with the MSA): __________________________",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Համատեղ աշխատանք այլ կազմակերպությունների հետ (MSA 3.2 Ե)",
+       "bold": false
+      },
+      {
+       "text": "Joint Workspace with Other Organizations (MSA 3.2(E))",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐ Ոչ / No",
+       "bold": false
+      },
+      {
+       "text": "☐ Այո / Yes. Կազմակերպության(ների) անվանում(ներ)ը և դերը / Name(s) and role(s) of organization(s): ______________________________",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Լրացուցիչ էջեր / ալիքներ",
+       "bold": false
+      },
+      {
+       "text": "Additional Pages / Channels",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Անհրաժեշտության դեպքում էջերի/ալիքների ամբողջական ցանկը կցվում է Պատվերին և հանդիսանում դրա մասը։",
+       "bold": false
+      },
+      {
+       "text": "If needed, a complete list of pages/channels may be attached to and form part of this Order.",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "type": "p",
+  "text": "3. Ֆինանսական պայմաններ   Financial Terms",
+  "bold": false
+ },
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐ Անվճար՝ դրամաշնորհային կամ ուղիղ աջակցության շրջանակում (MSA 9.1.1)",
+       "bold": false
+      },
+      {
+       "text": "Free of Charge under Grant or Direct Support (MSA 9.1.1)",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Արտոնյալ ժամկետ՝ ______ ամիս՝ մինչև «___» ____________ 20__ թ. ներառյալ։",
+       "bold": false
+      },
+      {
+       "text": "Արժեքը Հաճախորդի համար՝ 0 (զրո) ՀՀ դրամ։",
+       "bold": false
+      },
+      {
+       "text": "Աջակցության ծրագիր / ֆինանսավորման աղբյուր՝ ______________________________",
+       "bold": false
+      },
+      {
+       "text": "Grant/direct support term: ______ months, through ____________ 20__, inclusive.",
+       "bold": false
+      },
+      {
+       "text": "Amount payable by Client: AMD 0 (zero).",
+       "bold": false
+      },
+      {
+       "text": "Support programme / funding source: ______________________________",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐ Համաֆինանսավորում (MSA 9.1.2)",
+       "bold": false
+      },
+      {
+       "text": "Co-financing (MSA 9.1.2)",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ծառայության ամսական ընդհանուր արժեքը՝ __________ ՀՀ դրամ։",
+       "bold": false
+      },
+      {
+       "text": "Դրամաշնորհային/ուղիղ աջակցության մասնաբաժինը՝ __________ ՀՀ դրամ։",
+       "bold": false
+      },
+      {
+       "text": "Հաճախորդի վճարման ենթակա մասնաբաժինը՝ __________ ՀՀ դրամ։",
+       "bold": false
+      },
+      {
+       "text": "Աջակցության ծրագիր / ֆինանսավորման աղբյուր՝ ______________________________",
+       "bold": false
+      },
+      {
+       "text": "Ժամկետ՝ ______ ամիս՝ մինչև «___» ____________ 20__ թ. ներառյալ։",
+       "bold": false
+      },
+      {
+       "text": "Total monthly Service cost: AMD __________.",
+       "bold": false
+      },
+      {
+       "text": "Grant/direct support share: AMD __________.",
+       "bold": false
+      },
+      {
+       "text": "Amount payable by Client: AMD __________.",
+       "bold": false
+      },
+      {
+       "text": "Support programme / funding source: ______________________________",
+       "bold": false
+      },
+      {
+       "text": "Term: ______ months, through ____________ 20__, inclusive.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐ Վճարովի (MSA 9.1.3)",
+       "bold": false
+      },
+      {
+       "text": "Paid (MSA 9.1.3)",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ամսական արժեքը՝ __________ ՀՀ դրամ։",
+       "bold": false
+      },
+      {
+       "text": "Ծառայության վճարովի ժամկետը՝ ______ ամիս՝ մինչև «___» ____________ 20__ թ. ներառյալ։",
+       "bold": false
+      },
+      {
+       "text": "Monthly fee: AMD __________.",
+       "bold": false
+      },
+      {
+       "text": "Paid Service term: ______ months, through ____________ 20__, inclusive.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Վճարման կարգը",
+       "bold": false
+      },
+      {
+       "text": "Payment Terms",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "MSA-ի 9.3.1 կետի համաձայն՝ համաֆինանսավորման և վճարովի տարբերակներում Հաճախորդի վճարման ենթակա գումարը վճարվում է 100% կանխավճարով՝ յուրաքանչյուր հաշվարկային ամսվա (կամ ստորև նշված այլ ժամանակահատվածի) մեկնարկից առաջ՝ Հիմնադրամի հաշիվ-վավերագրի հիման վրա, եթե ստորև այլ բան հստակ նշված չէ։",
+       "bold": false
+      },
+      {
+       "text": "Հաշիվ-վավերագրի վճարման ժամկետ՝ ______ օր։ Այլ համաձայնեցված կարգ/ժամկետ՝ ____________________________________________։",
+       "bold": false
+      },
+      {
+       "text": "Գները ՀՀ դրամով են և ներառում են կիրառելի հարկերը (MSA 9.3.3)։",
+       "bold": false
+      },
+      {
+       "text": "Under Clause 9.3.1 of the MSA, for co-financed and paid Services, the amount payable by the Client is subject to 100% prepayment before the start of each billing month (or other period specified below), against the Foundation's invoice, unless expressly stated otherwise below.",
+       "bold": false
+      },
+      {
+       "text": "Invoice payment period: ______ days. Other agreed procedure/term: ______________.",
+       "bold": false
+      },
+      {
+       "text": "Prices are in AMD and include applicable taxes (MSA 9.3.3).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Արտոնյալ ժամկետի ավարտից հետո",
+       "bold": false
+      },
+      {
+       "text": "After the Preferential Term",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "MSA-ի 9.2 կետի համաձայն՝ MSA-ի 9.1.1 կամ 9.1.2 կետերով նախատեսված արտոնյալ ժամկետի ավարտից հետո՝ հաջորդ օրվանից, Գործիքի հասանելիությունն ավտոմատ արգելափակվում է։ Հիմնադրամը ծանուցում է առնվազն 10 (տասը) օրացուցային օր առաջ։ Ծառայությունը շարունակելու համար Կողմերը պետք է կնքեն նոր Պատվեր կամ լրացուցիչ համաձայնագիր և կատարեն դրանով նախատեսված վճարումը։",
+       "bold": false
+      },
+      {
+       "text": "Under Clause 9.2 of the MSA, after expiry of a preferential term under Clause 9.1.1 or 9.1.2, access to the Tool is automatically blocked from the following day. The Foundation gives at least 10 (ten) calendar days' prior notice. To continue the Service, the Parties must enter into a new Order or addendum and make the payment specified therein.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Սահմանաչափի գերազանցում",
+       "bold": false
+      },
+      {
+       "text": "Exceeding the Limit",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Սահմանաչափը գերազանցելու դեպքում լրացուցիչ վճար կամ ծառայության ծավալի փոփոխություն կիրառվում է միայն Կողմերի նախնական գրավոր համաձայնությամբ կամ նոր Պատվերով։ Առանց այդպիսի համաձայնության լրացուցիչ վճար չի հաշվարկվում։",
+       "bold": false
+      },
+      {
+       "text": "Any additional fee or change in service volume due to exceeding the limit shall apply only with the Parties' prior written agreement or a new Order. No additional fee is charged without such agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "type": "p",
+  "text": "4. Հավաստիացումներ   Declarations",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "Պատվերը ստորագրելով (հաստատելով)՝ Հաճախորդը, ի դեմս իր լիազորված ներկայացուցչի, հաստատում է հետևյալը (նշեք բոլոր կետերը)։",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "By signing (confirming) this Order, the Client, through its authorized representative, confirms the following (tick all items):",
+  "bold": false
+ },
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հաստատում եմ, որ մինչև Պատվերի ակցեպտավորումը հնարավորություն եմ ունեցել ծանոթանալու MSA-ի խմբագրություն 1.0-ին և դրա բոլոր Հավելվածներին, հասկացել եմ դրանց բովանդակությունը և ընդունում եմ դրանք։",
+       "bold": false
+      },
+      {
+       "text": "I confirm that, before accepting this Order, I had the opportunity to review MSA Version 1.0 and all its Appendices, understand their contents, and accept them.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Գիտակցում և ընդունում եմ, որ «moderAItor»-ը ԱԲ-ի վրա հիմնված որոշումների աջակցման գործիք է, գործում է հավանականությունների հիման վրա և կարող է սխալվել։ Հաճախորդը պատասխանատու է մոդերացիոն վերջնական որոշումների և իր կողմից ակտիվացված ավտոմատացման կանոնների ու դրանց նկատմամբ մարդկային վերահսկողության համար՝ MSA-ի 4.2–4.4 կետերի համաձայն։",
+       "bold": false
+      },
+      {
+       "text": "I acknowledge that moderAItor is an AI-based decision-support tool operating probabilistically and may make errors. The Client is responsible for final moderation decisions and for automation rules it activates and human oversight thereof, in accordance with Clauses 4.2–4.4 of the MSA.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Որպես Հաճախորդի ներկայացուցիչ՝ համաձայնություն եմ տալիս իմ անձնական տվյալների (անուն, ազգանուն, պաշտոն, էլ. փոստ, հեռախոս) մշակմանը՝ սույն Պատվերի կնքման և կատարման նպատակով, ՀՀ օրենսդրությանը և Գաղտնիության քաղաքականությանը (Հավելված 3) համապատասխան։",
+       "bold": false
+      },
+      {
+       "text": "As the Client's representative, I consent to the processing of my personal data (name, surname, position, email, phone) for the conclusion and performance of this Order, in accordance with the legislation of the Republic of Armenia and the Privacy Policy (Appendix 3).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հաստատում եմ, որ ծանոթացել եմ Գաղտնիության քաղաքականությանը (Հավելված 3) և տեղեկացված եմ, որ Գործիքը մշակում է միայն համապատասխան սոցիալական հարթակներում հանրամատչելի մեկնաբանություններն ու պատասխանները, հարթակի կողմից տրամադրվող օգտատերերի նույնականացուցիչները, հրապարակման ամսաթվերն ու ժամերը և սահմանափակ ներգրավվածության հետ կապված մետատվյալները։ Տվյալները մշակվում են Գաղտնիության քաղաքականությամբ սահմանված նպատակներով և այնտեղ նշված օրինական շահի հիմքով։ Հետազոտության կամ համակարգի բարելավման նպատակներով կիրառվում են համապատասխան երաշխիքներ, այդ թվում՝ անանունացում և համախմբում, իսկ տվյալների պահպանումն ու բացահայտումը կատարվում են Գաղտնիության քաղաքականությամբ սահմանված կարգով։\n\nI confirm that I have read the Privacy Policy (Appendix 3) and understand that the Tool processes only publicly available comments and replies on the relevant social platforms, platform-provided user identifiers, timestamps, and limited engagement-related metadata. Data is processed for the purposes and on the basis of legitimate interest specified in the Privacy Policy. Appropriate safeguards, including anonymization and aggregation, are applied for research or system improvement purposes, and data retention and disclosure are governed by the Privacy Policy.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հաստատում եմ, որ Հաճախորդն ունի Պատվերի 2-րդ բաժնում և դրան կից ցանկում նշված հանրային էջերն ու ալիքները օրինական հիմքով կառավարելու և Գործիքը դրանց նկատմամբ կիրառելու անհրաժեշտ իրավասությունը։ Հաճախորդը պարտավորվում է ապահովել, որ էջերի հասանելիության տրամադրումը և Գործիքի օգտագործումը համապատասխանեն կիրառելի օրենսդրությանը և համապատասխան սոցիալական հարթակների պայմաններին ու քաղաքականություններին։\n\nI confirm that the Client has the necessary authority to lawfully manage the public pages and channels listed in Section 2 of the Order and its attachments and to use the Tool in relation to them. The Client shall ensure that granting access to the pages and using the Tool comply with applicable law and the terms and policies of the relevant social platforms.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "☐",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հաստատում եմ, որ պատշաճ լիազորված եմ Հաճախորդի անունից ստորագրելու կամ MSA-ի 2.4 կետով նախատեսված կարգով հաստատելու սույն Պատվերը։",
+       "bold": false
+      },
+      {
+       "text": "I confirm that I am duly authorized to sign this Order or confirm it in the manner set out in Clause 2.4 of the MSA on behalf of the Client.",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "type": "p",
+  "text": "5. Ակցեպտ և ստորագրություններ   Acceptance and Signatures",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "Պատվերն ակցեպտավորվում է Հաճախորդի կողմից՝ MSA-ի 1.6 և 2.4 կետերի համաձայն՝ ստորև նշված եղանակներից մեկով։ Հաճախորդի ստորագրությունը կամ Պատվերում նշված էլ. փոստից ուղարկված հաստատումը հանդիսանում է MSA-ի ամբողջական և անվերապահ ակցեպտ։\nThe Client accepts this Order in accordance with Clauses 1.6 and 2.4 of the MSA by one of the methods below. The Client's signature or confirmation sent from the email address specified in this Order constitutes full and unconditional acceptance of the MSA.",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "☐ էլեկտրոնային թվային ստորագրությամբ",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "electronic digital signature",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "☐ Պատվերում նշված էլ. փոստի հասցեից ուղարկված հաստատմամբ",
+  "bold": false
+ },
+ {
+  "type": "p",
+  "text": "confirmation sent from the email address specified in this Order",
+  "bold": false
+ },
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հաճախորդ / Client",
+       "bold": false
+      },
+      {
+       "text": "Անուն, ազգանուն, պաշտոն / Name, Position",
+       "bold": false
+      },
+      {
+       "text": "________________________________________",
+       "bold": false
+      },
+      {
+       "text": "Ստորագրություն / Signature",
+       "bold": false
+      },
+      {
+       "text": "________________________________________",
+       "bold": false
+      },
+      {
+       "text": "Ամսաթիվ / Date",
+       "bold": false
+      },
+      {
+       "text": "«___» ____________ 20__",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ծառայություն մատուցող / Service Provider",
+       "bold": false
+      },
+      {
+       "text": "«Բոլորը հանուն հավասար իրավունքների» հիմնադրամ",
+       "bold": false
+      },
+      {
+       "text": "\"All for Equal Rights\" Foundation",
+       "bold": false
+      },
+      {
+       "text": "Ստացման/համաձայնեցման նշում (ըստ անհրաժեշտության) / Acknowledgment (if applicable)",
+       "bold": false
+      },
+      {
+       "text": "Անուն, պաշտոն / Name, Position: __________________",
+       "bold": false
+      },
+      {
+       "text": "Ստորագրություն / Signature: __________________",
+       "bold": false
+      },
+      {
+       "text": "Ամսաթիվ / Date: «___» ____________ 20__",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "type": "p",
+  "text": "Նշում․ MSA-ի 1.6 և 2.4 կետերի համաձայն՝ Պայմանագիրն ուժի մեջ է մտնում Հաճախորդի կողմից Պատվերի պատշաճ ստորագրման կամ հաստատման պահից։ Ծառայություն մատուցողի ստորագրությունը կարող է օգտագործվել Պատվերի ստացումը կամ համաձայնեցումը հավաստելու համար և ինքնին Հաճախորդի ակցեպտի փոխարեն չի պահանջվում։\nNote: Under Clauses 1.6 and 2.4 of the MSA, the Agreement enters into force when the Client duly signs or confirms the Order. The Service Provider's signature may acknowledge receipt or agreement and is not required in place of the Client's acceptance.",
+  "bold": false
+ }
+]

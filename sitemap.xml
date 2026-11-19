@@ -7,7 +7,7 @@
 	<!-- Homepage -->
 	<url>
 		<loc>https://moderaitor.app/</loc>
-		<lastmod>2026-02-06</lastmod>
+		<lastmod>2026-11-19</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -15,7 +15,7 @@
 	<!-- Privacy Policy -->
 	<url>
 		<loc>https://moderaitor.app/privacy.html</loc>
-		<lastmod>2026-02-06</lastmod>
+		<lastmod>2026-11-19</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -23,7 +23,7 @@
 	<!-- Terms of Service -->
 	<url>
 		<loc>https://moderaitor.app/terms.html</loc>
-		<lastmod>2026-02-06</lastmod>
+		<lastmod>2026-11-19</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -31,7 +31,31 @@
 	<!-- Data Deletion Instructions -->
 	<url>
 		<loc>https://moderaitor.app/data-deletion.html</loc>
-		<lastmod>2026-02-06</lastmod>
+		<lastmod>2026-11-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<!-- Master Service Agreement (public offer) -->
+	<url>
+		<loc>https://moderaitor.app/msa.html</loc>
+		<lastmod>2026-11-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<!-- Appendix 1 - Order Form -->
+	<url>
+		<loc>https://moderaitor.app/order-form.html</loc>
+		<lastmod>2026-11-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<!-- Appendix 5 - Model Editorial Policy -->
+	<url>
+		<loc>https://moderaitor.app/editorial-policy.html</loc>
+		<lastmod>2026-11-19</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -39,7 +63,7 @@
 	<!-- 404 Page (optional, usually not in sitemap) -->
 	<!-- <url>
 		<loc>https://moderaitor.app/404.html</loc>
-		<lastmod>2026-02-06</lastmod>
+		<lastmod>2026-11-19</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.1</priority>
 	</url> -->

@@ -1,0 +1,2771 @@
+[
+ {
+  "type": "table",
+  "rows": [
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "ՀԱՅԵՐԵՆ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "ENGLISH",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "«moderAItor» ԱՐՀԵՍՏԱԿԱՆ ԲԱՆԱԿԱՆՈՒԹՅԱՄԲ ՕԺՏՎԱԾ ՄՈԴԵՐԱՑԻՈՆ ԳՈՐԾԻՔԻ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԻ ՄԱՏՈՒՑՄԱՆ ՀԻՄՆԱԿԱՆ ՊԱՅՄԱՆԱԳԻՐ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "\"moderAItor\" ARTIFICIAL INTELLIGENCE MODERATION TOOL MASTER SERVICE AGREEMENT (MSA)",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հրապարակային օֆերտա",
+       "bold": false
+      },
+      {
+       "text": "Խմբագրություն 1.0",
+       "bold": false
+      },
+      {
+       "text": "Գործում է 2026 թ. նոյեմբերի 20-ից",
+       "bold": false
+      },
+      {
+       "text": "Հրապարակված է՝ https://moderaitor.app/msa.html",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Public Offer",
+       "bold": false
+      },
+      {
+       "text": "Version 1.0",
+       "bold": false
+      },
+      {
+       "text": "Effective from 20 November 2026",
+       "bold": false
+      },
+      {
+       "text": "Published at: https://moderaitor.app/msa.html",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Սույն «moderAItor» (մոդերԷյԱյտոր) արհեստական բանականությամբ օժտված մոդերացիոն գործիքի ծառայությունների մատուցման հիմնական պայմանագիրը (այսուհետ՝ «Պայմանագիր») հանդիսանում է հրապարակային օֆերտա և սույն Պայմանագրի 1.6 կետով սահմանված ակցեպտի պահից համարվում է կնքված հետևյալ Կողմերի միջև.",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "This \"moderAItor\" artificial intelligence moderation tool Master Service Agreement (hereinafter referred to as the \"Agreement\") constitutes a public offer and, upon acceptance in accordance with Clause 1.6, shall be deemed concluded between the following Parties:",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "«Բոլորը հանուն հավասար իրավունքների» հիմնադրամ (գրանցված Հայաստանի Հանրապետության օրենսդրության համաձայն՝ ՀՎՀՀ՝ 05547102, գրանցման համար՝ 222.160.1033857)՝ ի դեմս Հիմնադրամի տնօրեն Ալեքսանդր Մարտիրոսյանի, որը գործում է Հիմնադրամի կանոնադրության հիման վրա (այսուհետ՝ «Հիմնադրամ» կամ «Ծառայություն մատուցող»), մի կողմից, և",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "\"All for Equal Rights\" Foundation (registered in accordance with the legislation of the Republic of Armenia: TIN: 05547102, registration number: 222.160.1033857) represented by the Director of the Foundation Alexander Martirosyan, acting on the basis of the Foundation's charter (hereinafter referred to as the \"Foundation\" or \"Service Provider\"), on the one hand, and",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Պատվերում նշված Կազմակերպությունը / Անհատ ձեռնարկատերը, ի դեմս լիազորված ներկայացուցչի, որը գործում է կազմակերպության կանոնադրության կամ լիազորագրի հիման վրա (այսուհետ՝ «Հաճախորդ»), մյուս կողմից (միասին հիշատակման դեպքում՝ «Կողմեր»)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "The Organization / Individual Entrepreneur specified in the Order, represented by an authorized representative acting on the basis of the organization's charter or power of attorney (hereinafter referred to as the \"Client\"), on the other hand (collectively referred to as the \"Parties\").",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1. ՀԻՄՆԱԿԱՆ ԴՐՈՒՅԹՆԵՐ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1. GENERAL PROVISIONS",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.1. Սույն Պայմանագիրը սահմանում է Հիմնադրամի և Հաճախորդի միջև ծագող իրավահարաբերությունները՝ կապված «moderAItor» արհեստական բանականությամբ օժտված մոդերացիոն գործիքի օգտագործման, սպասարկման, տվյալների մշակման, մտավոր սեփականության, տեղեկատվական անվտանգության և փոխադարձ պատասխանատվության հետ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.1. This Agreement defines the legal relations arising between the Foundation and the Client in connection with the use and maintenance of the \"moderAItor\" artificial intelligence-powered moderation tool, data processing, intellectual property, information security, and mutual liability.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.2. Պայմանագիրը կիրառվում է «moderAItor» գործիքի և դրա հետ կապված բոլոր ծառայությունների նկատմամբ՝ ներառյալ հարթակի օգտագործման իրավունքի տրամադրումը, ծրագրային ապահովման թարմացումները, տեխնիկական աջակցությունը և հարակից ծառայությունները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.2. The Agreement applies to the \"moderAItor\" tool and all related services, including the provision of the right to use the platform, software updates, technical support, and related services.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.3. Պայմանագիրը հիմնված է Հայաստանի Հանրապետության գործող օրենսդրության, «Անձնական տվյալների պաշտպանության մասին» ՀՀ օրենքի, Տվյալների պաշտպանության ընդհանուր կանոնակարգի (ԵՄ 2016/679 կանոնակարգ. «GDPR») ստանդարտների և սոցիալական հարթակների (Meta, YouTube) համապատասխան քաղաքականությունների, այդ թվում՝ դրանց օգտագործման պայմանների վրա։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.3. The Agreement is based on the current legislation of the Republic of Armenia, the RA Law \"On Protection of Personal Data\", the General Data Protection Regulation (EU Regulation 2016/679: \"GDPR\") standards, and the relevant policies of social platforms (Meta, YouTube), including their terms of use.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.4. «moderAItor» գործիքը հանդիսանում է արհեստական բանականությամբ օժտված որոշումների աջակցման տեխնիկական գործիք։ Գործիքն ինքնուրույն չի ընդունում վերջնական իրավական, խմբագրական կամ կառավարչական որոշումներ, իսկ Գործիքին նման լիազորություն տրամադրելու որոշումը (եթե դա տեխնիկապես հնարավոր է) և դրա պատասխանատվությունը պատկանում են բացառապես Հաճախորդին։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.4. The \"moderAItor\" tool is a technical decision support tool powered by artificial intelligence. The Tool does not independently make final legal, editorial, or managerial decisions; the decision to grant the Tool such authority (where technically possible), and the responsibility for it, rest solely with the Client.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.5. Սույն Պայմանագրի անբաժանելի մասն են կազմում դրա Հավելվածները՝ Հավելված 1 - Պատվերի ձև, Հավելված 2 - Ծառայությունների մատուցման պայմաններ, Հավելված 3 - Գաղտնիության քաղաքականություն, Հավելված 4 - Տվյալների ոչնչացման քաղաքականություն, Հավելված 5 - Մեկնաբանությունների մոդերացիայի օրինակելի խմբագրական քաղաքականություն։ Հավելվածները հրապարակված են https://moderaitor.app կայքում սույն Պայմանագրի հետ միասին և Հաճախորդին հասանելի են մինչև ակցեպտը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.5. The Appendices to this Agreement form an integral part thereof: Appendix 1 - Order Form, Appendix 2 - Terms of Service, Appendix 3 - Privacy Policy, Appendix 4 - Data Deletion Policy, Appendix 5 - Model Comment Moderation Editorial Policy. The Appendices are published on the website https://moderaitor.app together with this Agreement and are available to the Client prior to acceptance.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.6. Սույն Պայմանագիրը հանդիսանում է հրապարակային օֆերտա։ Հաճախորդի կողմից Պատվերի ձևի ստորագրումը կամ հաստատումը սույն Պայմանագրի 2.4 կետով սահմանված եղանակով հանդիսանում է սույն Պայմանագրի պայմանների ամբողջական և անվերապահ ընդունում (ակցեպտ)։ Ակցեպտով Հաճախորդը հաստատում է, որ ծանոթացել է սույն Պայմանագրին և դրա Հավելվածներին և ընդունում է դրանք։ Սույն Պայմանագիրն առանձին ստորագրման ենթակա չէ և ուժի մեջ է մտնում Պատվերի ստորագրման (հաստատման) պահից։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.6. This Agreement constitutes a public offer. The signing or confirmation of the Order Form by the Client in the manner set out in Clause 2.4 of this Agreement constitutes full and unconditional acceptance of the terms of this Agreement. By acceptance, the Client confirms that it has read this Agreement and its Appendices and accepts them. This Agreement is not subject to separate signing and enters into force from the moment of signing (confirmation) of the Order.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.7. Պայմանագրի ցանկացած կետի փոփոխությունների պարագայում Հաճախորդը ծանուցվում է Պայմանագրի 16-րդ գլխով սահմանված կարգով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.7. In case of changes to any clause of the Agreement, the Client shall be notified in the manner defined by Section 16 of the Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.8. Սույն Պայմանագրի և դրա Հավելվածների (բացառությամբ Պատվերի) միջև հակասության դեպքում գերակայում են սույն Պայմանագրի դրույթները, բացառությամբ անձնական տվյալների պաշտպանության և գաղտնիության հարցերի, որոնց մասով գերակայում է Գաղտնիության քաղաքականությունը (Հավելված 3)։ Պատվերով սահմանվում են սույն Պայմանագրով Պատվերին վերապահված պայմանները (ֆինանսական պայմաններ, ժամկետներ, սահմանաչափեր, տեխնիկական աջակցության կարգ և այլն), և այդ պայմանների մասով Պատվերը գերակայում է սույն Պայմանագրի նկատմամբ։ Հավելված 5-ը կրում է օրինակելի բնույթ և Հաճախորդի համար պարտադիր է այն մասով, որով Հաճախորդն այն ընդունել է որպես իր մոդերացիոն քաղաքականություն։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "1.8. In the event of a conflict between this Agreement and its Appendices (other than the Order), the provisions of this Agreement shall prevail, except for matters of personal data protection and privacy, in respect of which the Privacy Policy (Appendix 3) shall prevail. The Order sets out the terms that this Agreement reserves to the Order (financial terms, dates and periods, limits, technical support procedure, etc.), and with respect to such terms the Order shall prevail over this Agreement. Appendix 5 is a model document and is binding on the Client to the extent the Client has adopted it as its own moderation policy.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2. ՍԱՀՄԱՆՈՒՄՆԵՐ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2. DEFINITIONS",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.1. «Հիմնադրամ»/«Ծառայություն մատուցող»՝ «Բոլորը հանուն հավասար իրավունքների» հիմնադրամ, որը մշակել, տնօրինում և շահագործում է moderAItor գործիքը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.1. \"Foundation\"/\"Service Provider\": \"All for Equal Rights\" Foundation, which developed, owns, and operates the moderAItor tool.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.2. «Հաճախորդ»՝ Պատվերի ստորագրմամբ (հաստատմամբ) սույն Պայմանագիրն ակցեպտավորած և «moderAItor» գործիքից օգտվելու իրավունք ստացած անհատ ձեռնարկատեր, իրավաբանական անձ, պետական մարմին կամ կազմակերպություն (լրատվամիջոց, քաղաքացիական հասարակության կազմակերպություն և այլն)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.2. \"Client\": An individual entrepreneur, legal entity, state body, or organization (media, civil society organization, etc.) that has accepted this Agreement by signing (confirming) the Order and obtained the right to use the \"moderAItor\" tool.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.3. «Գործիք»՝ moderAItor արհեստական բանականությամբ օժտված ծրագրային համակարգը, դրա ալգորիթմները, վեբ միջերեսը, API-ները (Հավելվածների ծրագրավորման միջերեսներ) և բաղադրիչները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.3. \"Tool\": The moderAItor artificial intelligence software system, its algorithms, web interface, APIs (Application Programming Interfaces), and components.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.4. «Պատվեր»՝ Կողմերի միջև համաձայնեցված և էլեկտրոնային թվային ստորագրությամբ ստորագրված կամ Պատվերում նշված էլեկտրոնային փոստի հասցեից Հաճախորդի ուղարկած հաստատմամբ ընդունված փաստաթուղթ, որով սահմանվում են Հաճախորդի տվյալները, ընտրված սոցիալական հարթակները, ամսական մեկնաբանությունների սահմանաչափը, ֆինանսավորման ձևաչափը և ֆինանսական պայմանները, Ծառայության մեկնարկի ամսաթիվը և տրամադրման ժամկետը, ինչպես նաև տեխնիկական աջակցության կարգը (Հավելված 1)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.4. \"Order\": A document agreed between the Parties and signed with an electronic digital signature or confirmed by the Client by email sent from the address specified in the Order, defining the Client's details, selected social platforms, monthly comment limit, financing format and financial terms, the start date and term of the Service, and the technical support procedure (Appendix 1).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.5. «ԱԲ համակարգ»՝ Գործիքում կիրառվող մեքենայական ուսուցման և բնական լեզվի մշակման տեխնոլոգիաների համակցությունը, որը վերլուծում և դասակարգում է հանրային մեկնաբանությունները (այդ թվում նաև՝ ատելության խոսք, վիրավորանք, հայհոյանք, սպառնալիքներ և այլն)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.5. \"AI system\": The combination of machine learning and natural language processing technologies used in the Tool, which analyzes and classifies public comments (including hate speech, insults, profanity, threats, etc.).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.6. «ԱԲ արդյունք/գնահատական»՝ Գործիքի կողմից գեներացված ծանուցումը, դասակարգումը կամ պիտակավորումը, որը կրում է բացառապես աջակցող/խորհրդատվական բնույթ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.6. \"AI result/assessment\": The notification, classification, or labeling generated by the Tool, which is of a purely supporting/advisory nature.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.7. «Լիազորված օգտատեր»՝ Հաճախորդի կողմից լիազորված ֆիզիկական անձ (մոդերատոր, ադմինիստրատոր), որը մուտքի իրավունք ունի Գործիքին։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.7. \"Authorized user\": A natural person (moderator, administrator) authorized by the Client who has access to the Tool.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.8. «Հանրային բովանդակություն և հարակից տեղեկություններ»՝ սոցիալական հարթակներում (Facebook, Instagram, YouTube և այլն) Հաճախորդի հանրային էջերում հանրամատչելի մեկնաբանություններն ու պատասխանները, հարթակի կողմից տրամադրվող օգտատերերի նույնականացուցիչները, հրապարակման ամսաթվերն ու ժամերը, ինչպես նաև սահմանափակ ներգրավվածության հետ կապված մետատվյալները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "2.8. \"Public content and related information\": publicly accessible comments and replies on the Client's public pages on social platforms (Facebook, Instagram, YouTube, etc.), platform-provided user identifiers, timestamps, and limited engagement-related metadata.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3. ՊԱՅՄԱՆԱԳՐԻ ԱՌԱՐԿԱՆ ԵՎ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԻ ՇՐՋԱՆԱԿԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3. SUBJECT OF THE AGREEMENT AND SCOPE OF SERVICES",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3.1. Հիմնադրամը պարտավորվում է Հաճախորդին տրամադրել «moderAItor» գործիքից օգտվելու սահմանափակ իրավունք և դրա հետ կապված տեխնիկական աջակցությունը, իսկ Հաճախորդը պարտավորվում է օգտվել Գործիքից Պայմանագրի դրույթներին համապատասխան և վճարել Պատվերով սահմանված վարձատրությունը (բացառությամբ սույն Պայմանագրի 9.1.1 կետով նախատեսված դեպքի, իսկ 9.1.2 կետով նախատեսված դեպքում՝ Հաճախորդի կողմից վճարման ենթակա մասով)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3.1. The Foundation undertakes to provide the Client with a limited right to use the \"moderAItor\" tool and related technical support, and the Client undertakes to use the Tool in accordance with the provisions of the Agreement and pay the remuneration defined by the Order (except in the case provided for in Clause 9.1.1 of this Agreement and, in the case provided for in Clause 9.1.2, to the extent of the portion payable by the Client).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3.2. Ծառայությունների շրջանակը ներառում է.",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3.2. The scope of services includes:",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ա) Հանրային բովանդակության վերլուծություն. հանրային մեկնաբանությունների և պատասխանների վերլուծություն՝ ատելության խոսքի և այլ վնասակար կամ հարթակի կանոնները խախտող բովանդակության հայտնաբերման և դասակարգման նպատակով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "A) Public content analysis: analysis of public comments and replies to identify and classify hate speech and other harmful or platform-policy-violating content.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Բ) Կասկածելի բովանդակության հայտնաբերում և ծանուցում. Գործիքը հայտնաբերում և նշում է հնարավոր խախտումներ պարունակող բովանդակությունը՝ լիազորված մոդերատորների կողմից ուսումնասիրելու համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "B) Detection and flagging: The Tool identifies and flags content that may contain violations for review by authorized moderators.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Գ) Իրական սպառնալիքների վաղ ծանուցում. համակարգն առանձնացնում է սովորական վիրավորանքներն իրական բռնության սպառնալիքներից՝ ապահովելով անհապաղ արձագանք։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "C) Early notification of real threats: The system separates ordinary insults from threats of real violence, ensuring an immediate response.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Դ) Կրկնվող խախտումների դիտարկման աջակցություն. հանրային մեկնաբանությունների և հարակից հասանելի տեղեկությունների վերլուծություն՝ մոդերացիոն աշխատանքային գործընթացին աջակցելու համար։ Գործիքը չի իրականացնում ինքնուրույն հրապարակում, տարածում, ճնշում կամ հեռացում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "D) Support for reviewing recurring violations: analysis of public comments and related available information to support moderation workflows. The Tool does not independently publish, amplify, suppress, or remove content.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ե) Բազմաօգտատեր աշխատանքային տիրույթ. բազմաօգտատեր ենթակառուցվածք, որը թույլ է տալիս թիմի տարբեր անդամներին կամ (Պատվերով նախատեսված դեպքում) տարբեր կազմակերպություններին համատեղ կառավարել ալիքները և էջերը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "E) Multi-user workspace: A multi-user infrastructure that allows different team members or (where provided for in the Order) different organizations to collaboratively manage channels and pages.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Զ) Ինտեգրումներ և հարմարավետություն. Slack և Telegram ծանուցումներ, ճկուն աշխատանքային տիրույթներ, մութ և լուսավոր ռեժիմներ և մատչելիության գործառույթներ (բարձր կոնտրաստ, ընդգծել հղումները, ավելի մեծ տեքստ, տեքստի միջատարածություն, կանգնեցնել անիմացիան, թաքցնել պատկերները, դիսլեքսիայի համար հարմար տառատեսակ, տողերի բարձրություն, տեքստի հավասարեցում, գունային հագեցվածություն, ձայնային ուղեկցում)՝ տեսողական կամ լսողական խնդիրներ ունեցող անձանց համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "F) Integrations and convenience: Slack and Telegram notifications, flexible workspaces, dark and light modes, and accessibility features (high contrast, highlighting links, larger text, text spacing, pausing animations, hiding images, dyslexia-friendly fonts, line height, text alignment, color saturation, voice guidance) for people with visual or hearing impairments.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Է) Ամսական գեներացվող զեկույցներ՝ էջերի և ալիքների առցանց համայնքներում հաղորդակցության, ատելության խոսքի և վիրավորանքի վերաբերյալ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "G) Monthly generated reports: On communication, hate speech, and insults in online communities of pages and channels.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ը) Մեկնաբանությունների մոդերացիայի խմբագրական քաղաքականություն և վերապատրաստում. մասնագիտական խորհրդատվություն «Մեկնաբանությունների մոդերացիայի խմբագրական քաղաքականության» մշակման համար և տեխնիկական աջակցություն Պատվերով սահմանված ժամկետի ընթացքում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "H) Comment moderation editorial policy and training: Professional consulting for the development of a \"Comment Moderation Editorial Policy\" and technical support throughout the term specified in the Order.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3.3. Հիմնադրամը Հաճախորդին չի փոխանցում ծրագրային ապահովման, արհեստական բանականության մոդելների կամ ծրագրային կոդի սեփականության իրավունքը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "3.3. The Foundation does not transfer the ownership of the software, artificial intelligence models, or source code to the Client.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4. ԱՐՀԵՍՏԱԿԱՆ ԲԱՆԱԿԱՆՈՒԹՅԱՆ ՀԱՄԱԿԱՐԳԻ ՕԳՏԱԳՈՐԾՄԱՆ ԱՌԱՆՁՆԱՀԱՏԿՈՒԹՅՈՒՆՆԵՐԸ ԵՎ «ՄԱՐԴԸ ԿԱՌԱՎԱՐՄԱՆ ՇՂԹԱՅՈՒՄ» ՍԿԶԲՈՒՆՔԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4. FEATURES OF USING THE ARTIFICIAL INTELLIGENCE SYSTEM AND THE \"HUMAN IN THE LOOP\" PRINCIPLE",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.1. Հաճախորդը գիտակցում և ընդունում է, որ «moderAItor»-ը արհեստական բանականության վրա հիմնված որոշումների աջակցման տեխնիկական համակարգ է, որը գործում է հավանականությունների հիման վրա և կարող է թույլ տալ որոշակի սխալներ (ներառյալ «հալյուցինացիաներ», կեղծ դրական կամ կեղծ բացասական ահազանգեր կամ բացթողումներ)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.1. The Client acknowledges and accepts that \"moderAItor\" is a technical decision support system based on artificial intelligence that operates based on probabilities and may make certain errors (including \"hallucinations\", false positive or false negative alerts, or omissions).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.2. Գործիքն ինքնուրույն չի հրապարակում, տարածում, ճնշում կամ հեռացնում բովանդակություն և չի կայացնում վերջնական մոդերացիոն որոշումներ։ Մոդերացիոն բոլոր գործողություններն իրականացնում են Հաճախորդի լիազորված օգտատերերը՝ Հաճախորդի մոդերացիոն քաղաքականության և համապատասխան հարթակի կանոնների համաձայն։ Բացառիկ դեպքերում, եթե Հաճախորդի մոդերացիոն քաղաքականությամբ նախատեսված է և Հաճախորդն ակտիվացրել է համապատասխան գործառույթը, մեկնաբանությունը կարող է ժամանակավորապես թաքցվել մինչև մարդու կողմից վերջնական ուսումնասիրությունն ու որոշումը։ Հաճախորդը պարտավոր է ապահովել այդ գործընթացի մարդկային վերահսկողությունը և վերանայման հնարավորությունը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.2. The Tool does not independently publish, amplify, suppress, or remove content and does not make final moderation decisions. All moderation actions are carried out by the Client's authorized users in accordance with the Client's moderation policy and the relevant platform rules. In limited cases, where provided for by the Client's moderation policy and activated by the Client, a comment may be temporarily hidden pending final human review and decision. The Client shall ensure human oversight of and the possibility to review this process.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.3. Եթե Հաճախորդի մոդերացիոն քաղաքականությամբ նախատեսված է, և Հաճախորդն ակտիվացնում է մեկնաբանությունների ժամանակավոր թաքցման գործառույթը, մեկնաբանությունը կարող է ժամանակավորապես թաքցվել մինչև Հաճախորդի լիազորված մոդերատորի կողմից վերջնական ուսումնասիրությունն ու որոշումը։ Վերջնական որոշումը կայացնում է միայն Հաճախորդի լիազորված մոդերատորը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.3. Where provided for by the Client's moderation policy and activated by the Client, a comment may be temporarily hidden pending final review and decision by the Client's authorized moderator. The final decision shall be made only by the Client's authorized moderator.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.4. Հաճախորդը կրում է վերջնական և ամբողջական պատասխանատվությունը մոդերացիոն բոլոր որոշումների և դրանց հետևանքների համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "4.4. The Client bears the final and full responsibility for all moderation decisions and their consequences.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5. ՀԱՃԱԽՈՐԴԻ ԻՐԱՎՈՒՆՔՆԵՐՆ ՈՒ ՊԱՐՏԱԿԱՆՈՒԹՅՈՒՆՆԵՐԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5. RIGHTS AND OBLIGATIONS OF THE CLIENT",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1. Հաճախորդն իրավունք ունի՝",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1. The Client has the right to:",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.1. Ստանալ Պատվերում նշված ծավալով և սահմանաչափերով Գործիքի հասանելիություն։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.1. Gain access to the Tool in the volume and limits specified in the Order.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.2. Ստանալ սկզբնական կամ պարբերական ուղեցույցներ, ուսուցողական նյութեր կամ դասընթացներ Հիմնադրամից՝ Հաճախորդի կողմից Գործիքի ճիշտ, էթիկական և արդյունավետ շահագործումն ապահովելու համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.2. Receive initial or periodic guidelines, training materials, or courses from the Foundation to ensure proper, ethical, and effective operation of the Tool by the Client.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.3. Ստանալ տեխնիկական աջակցություն Հիմնադրամի կողմից՝ սույն Պայմանագրի 6.2.4 կետով սահմանված կարգով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.3. Receive technical support from the Foundation in accordance with Clause 6.2.4 of this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.4. Պահանջել Հիմնադրամից՝ ձեռնարկել Գաղտնիության քաղաքականությամբ (Հավելված 3) նախատեսված համապատասխան տեխնիկական և կազմակերպչական միջոցները՝ մշակվող տվյալները պաշտպանելու համար։ Հաճախորդը տեղեկացված է, որ տվյալները հետազոտության, հաշվետվությունների, թափանցիկության կամ համակարգի բարելավման նպատակներով կարող են օգտագործվել կամ տրամադրվել միայն Գաղտնիության քաղաքականությամբ նախատեսված համախմբված կամ անանունացված ձևով, ինչպես նաև օրենքով կամ իրավասու պետական մարմնի պահանջով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.1.4. Require the Foundation to implement the appropriate technical and organizational measures provided for in the Privacy Policy (Appendix 3) to protect processed data. The Client acknowledges that data may be used or disclosed for research, reporting, transparency, or system improvement purposes only in aggregated or anonymized form as provided in the Privacy Policy, and may also be disclosed where required by law or by a competent public authority.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2. Հաճախորդը պարտավորվում է՝",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2. The Client is obliged to:",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.1. Ապահովել իր օգտահաշիվների, գաղտնաբառերի և հավելվածների ծրագրավորման միջերեսի բանալիների գաղտնիությունն ու անվտանգությունը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.1. Ensure the confidentiality and security of its accounts, passwords, and application programming interface keys.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.2. Գործիքն օգտագործել բացառապես օրինական նպատակներով՝ պահպանելով Meta, YouTube և այլ հարթակների Մշակողների քաղաքականության և Համայնքների ստանդարտների պահանջները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.2. Use the Tool exclusively for lawful purposes, complying with the Developer Policies and Community Standards of Meta, YouTube, and other platforms.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.3. Անհապաղ (ոչ ուշ, քան 24 ժամվա ընթացքում) տեղեկացնել Հիմնադրամին հավելվածների ծրագրավորման միջերեսի բանալիների կամ օգտահաշիվների հնարավոր արտահոսքի, անվտանգության համակարգերի խախտման, ինչպես նաև երրորդ անձանց (ներառյալ՝ սոցիալական ցանցերի ադմինիստրացիայի) կողմից Հաճախորդին ներկայացված այն պահանջների կամ բողոքների մասին, որոնք առնչվում են Գործիքի օգտագործմանը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.3. Immediately (no later than within 24 hours) inform the Foundation about the possible leakage of application programming interface keys or accounts, security system breaches, as well as demands or complaints submitted to the Client by third parties (including the administration of social networks) related to the use of the Tool.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.4. Մշակել, սահմանել և կիրառել հանրության համար հասանելի, թափանցիկ և իրավաչափ Մոդերացիոն քաղաքականություն։ Այդ նպատակով Հաճախորդը կարող է հիմք ընդունել Մեկնաբանությունների մոդերացիայի օրինակելի խմբագրական քաղաքականությունը (Հավելված 5)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.4. Develop, define, and apply a publicly available, transparent, and legitimate Moderation Policy. For this purpose, the Client may use the Model Comment Moderation Editorial Policy (Appendix 5) as a basis.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.5. Գործիքի կողմից հայտնաբերված ատելության խոսքի, բռնության կոչերի կամ այլ խախտումների վերաբերյալ վերջնական որոշումները (բովանդակության հեռացում, օգտատիրոջ արգելափակում և այլն) կայացնել բացառապես սեփական պատասխանատվությամբ՝ ապահովելով «Մարդը կառավարման շղթայում» սկզբունքի պահանջը (այդ թվում՝ սույն Պայմանագրի 4.2 և 4.3 կետերով նախատեսված ավտոմատացման դեպքում) և բացառելով խոսքի ազատության կամայական կամ անհիմն սահմանափակումները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.5. Make final decisions regarding hate speech, calls for violence, or other violations detected by the Tool (content removal, user blocking, etc.) exclusively on its own responsibility, ensuring the requirement of the \"Human in the loop\" principle (including in the case of automation under Clauses 4.2 and 4.3 of this Agreement) and excluding arbitrary or unjustified restrictions on freedom of speech.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.6. Պատվերով և սույն Պայմանագրով սահմանված ժամկետներում, կարգով և լրիվ ծավալով կատարել ֆինանսական վճարումները (բացառությամբ սույն Պայմանագրի 9.1.1 կետով նախատեսված դեպքի, իսկ 9.1.2 կետով նախատեսված դեպքում՝ Հաճախորդի կողմից վճարման ենթակա մասով)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "5.2.6. Make financial payments within the terms, in the manner, and in full as defined by the Order and this Agreement (except in the case provided for in Clause 9.1.1 of this Agreement and, in the case provided for in Clause 9.1.2, to the extent of the portion payable by the Client).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6. ՀԻՄՆԱԴՐԱՄԻ ԻՐԱՎՈՒՆՔՆԵՐՆ ՈՒ ՊԱՐՏԱԿԱՆՈՒԹՅՈՒՆՆԵՐԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6. RIGHTS AND OBLIGATIONS OF THE FOUNDATION",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1. Հիմնադրամն իրավունք ունի՝",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1. The Foundation has the right to:",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1.1. Կասեցնել Հաճախորդի հասանելիությունը Գործիքին՝ սույն Պայմանագրի, Գաղտնիության քաղաքականության (Հավելված 3) կամ Ծառայությունների մատուցման պայմանների (Հավելված 2) պահանջների, և/կամ սահմանված վճարների չկատարման կամ ոչ պատշաճ կատարման դեպքում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1.1. Suspend the Client's access to the Tool in case of non-fulfillment or improper fulfillment of the requirements of this Agreement, the Privacy Policy (Appendix 3), or the Terms of Service (Appendix 2), and/or defined payments.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1.2. Ժամանակավորապես սահմանափակել կամ դադարեցնել Գործիքի հասանելիությունը՝ տեխնիկական վերազինման աշխատանքներից ելնելով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1.2. Temporarily limit or suspend access to the Tool due to technical upgrade works.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1.3. Ստուգել Հաճախորդի կողմից Գործիքի օգտագործման համապատասխանությունը սույն Պայմանագրի և կիրառելի քաղաքականությունների պահանջներին։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.1.3. Verify the compliance of the Tool's use by the Client with the requirements of this Agreement and applicable policies.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2. Հիմնադրամը պարտավորվում է՝",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2. The Foundation is obliged to:",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.1. Ապահովել Գործիքի բնականոն տեխնիկական աշխատանքը և ծառայությունների հասանելիությունը՝ սույն Պայմանագրի 11-րդ գլխի դրույթների հաշվառմամբ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.1. Ensure the normal technical operation of the Tool and the availability of services, subject to Section 11 of this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.2. Իրականացնել տվյալների մշակումը բացառապես ՀՀ օրենսդրության, «Անձնական տվյալների պաշտպանության մասին» ՀՀ օրենքի, Տվյալների պաշտպանության ընդհանուր կանոնակարգի և Գաղտնիության քաղաքականության համաձայն։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.2. Carry out data processing exclusively in accordance with the RA legislation, the RA Law \"On Protection of Personal Data\", the General Data Protection Regulation, and the Privacy Policy.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.3. Տրամադրել ուսուցողական նյութեր, ուղեցույցներ և իրականացնել դասընթացներ՝ Հաճախորդի կողմից Գործիքի արդյունավետ շահագործումն ապահովելու նպատակով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.3. Provide training materials, guidelines, and conduct training courses in order to ensure the effective operation of the Tool by the Client.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.4. Մատուցել տեխնիկական աջակցություն Պատվերով սահմանված կարգով, իսկ դրա բացակայության դեպքում՝ աշխատանքային օրերին, info@moderaitor.app էլեկտրոնային հասցեով՝ դիմումը ստանալուց հետո ոչ ուշ, քան 2 (երկու) աշխատանքային օրվա ընթացքում արձագանքելով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.4. Provide technical support in the manner specified in the Order or, in the absence thereof, on working days via info@moderaitor.app, responding no later than 2 (two) working days after receipt of the request.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.5. Ձեռնարկել անհրաժեշտ տեխնիկական և կազմակերպչական միջոցներ՝ Հաճախորդի տվյալների (ներառյալ՝ մոնիտորինգի արդյունքների և վերլուծական հաշվետվությունների) ամբողջականությունը, գաղտնիությունն ու պաշտպանությունը երրորդ անձանց անօրինական հասանելիությունից ապահովելու համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.5. Take necessary technical and organizational measures to ensure the integrity, confidentiality, and protection of the Client's data (including monitoring results and analytical reports) from illegal access by third parties.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.6. Ողջամիտ ժամկետում ծանուցել Հաճախորդին Գործիքի պլանային տեխնիկական սպասարկման կամ թարմացման աշխատանքների պատճառով հասանելիության հնարավոր սահմանափակումների մասին։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "6.2.6. Notify the Client within a reasonable time regarding possible access limitations due to scheduled technical maintenance or updating works of the Tool.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "7. ԳՈՐԾԻՔԻ ՕԳՏԱԳՈՐԾՄԱՆ ԻՐԱՎՈՒՆՔԻ ՏՐԱՄԱԴՐՈՒՄ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "7. GRANTING THE RIGHT TO USE THE TOOL",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "7.1. Հիմնադրամը Հաճախորդին տրամադրում է Գործիքից օգտվելու սահմանափակ, ոչ բացառիկ, չփոխանցվող, հետկանչելի և չենթալիցենզավորվող իրավունք՝ բացառապես Պատվերում նշված այն հանրային էջերի մոդերացիայի համար, որոնք պատկանում են Հաճախորդին կամ կառավարվում են նրա կողմից օրինական հիմքով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "7.1. The Foundation grants the Client a limited, non-exclusive, non-transferable, revocable, and non-sublicensable right to use the Tool exclusively for the moderation of the public pages specified in the Order which are owned by the Client or lawfully managed by it.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "7.2. Հաճախորդն իրավունք չունի.",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "7.2. The Client does not have the right to:",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "ա) Գործիքի օգտագործման իրավունքը վաճառել, վարձակալությամբ տալ կամ փոխանցել երրորդ անձանց,",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "a) sell, lease, or transfer the right to use the Tool to third parties,",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "բ) իրականացնել Գործիքի հակադարձ ինժեներիա, ապակոմպիլացում կամ պատճենահանում,",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "b) perform reverse engineering, decompilation, or copying of the Tool,",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "գ) օգտագործել Գործիքը մրցակցային արտադրանք կամ արհեստական բանականության մոդելներ մշակելու/վերապատրաստելու նպատակով,",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "c) use the Tool for the purpose of developing/training competitive products or artificial intelligence models,",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "դ) իրականացնել ավտոմատացված տվյալահավաք կամ շրջանցել անվտանգության համակարգերը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "d) carry out automated data collection or bypass security systems.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8. ՏՎՅԱԼՆԵՐԻ ՊԱՇՏՊԱՆՈՒԹՅՈՒՆ ԵՎ ԳԱՂՏՆԻՈՒԹՅՈՒՆ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8. DATA PROTECTION AND CONFIDENTIALITY",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.1. Տվյալների պաշտպանության և գաղտնիության գործընթացները կարգավորվում են Գործիքի Գաղտնիության քաղաքականության (Հավելված 3) համաձայն։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.1. Data protection and privacy processes are regulated in accordance with the Tool's Privacy Policy (Appendix 3).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.2. Օգտատերերի կողմից տվյալների ոչնչացման գործընթացը կարգավորվում է համաձայն Գործիքի Տվյալների ոչնչացման քաղաքականության (Հավելված 4)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.2. The process of data deletion by users is regulated according to the Tool's Data Deletion Policy (Appendix 4).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.3. Գործիքը մշակում է միայն սոցիալական հարթակների պայմաններին, քաղաքականություններին և գաղտնիության կարգավորումներին համապատասխան հանրամատչելի բովանդակությունն ու տեղեկությունները։ Դրանք կարող են ներառել հանրային մեկնաբանություններն ու պատասխանները, հարթակի կողմից տրամադրվող օգտատերերի նույնականացուցիչները, հրապարակման ամսաթվերն ու ժամերը և սահմանափակ ներգրավվածության հետ կապված մետատվյալները։ Գործիքը հասանելիություն չունի անձնական նամակագրություններին, անձնական օգտահաշիվներին, փակ կամ սահմանափակ հասանելիությամբ խմբերին կամ հարթակի գաղտնիության կարգավորումներով սահմանափակված որևէ բովանդակության։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.3. The Tool processes only content and information that is publicly available in accordance with the terms, policies, and privacy settings of the relevant social platforms. This may include public comments and replies, platform-provided user identifiers, timestamps, and limited engagement-related metadata. The Tool does not access private messages, private profiles, closed or restricted groups, or any content limited by the platform's privacy settings.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.4. Տվյալները մշակվում են Գաղտնիության քաղաքականության (Հավելված 3) 3-րդ բաժնում նշված նպատակներով՝ ատելության խոսքի և այլ վնասակար կամ հարթակի կանոնները խախտող բովանդակության հայտնաբերման ու դասակարգման, լիազորված մոդերատորների ուսումնասիրության համար բովանդակության նշման և համապատասխան հարթակների բնիկ գործիքներով մոդերացիոն աշխատանքային գործընթացներին աջակցելու համար։ Մշակման իրավական հիմքը, ըստ Գաղտնիության քաղաքականության, օրինական շահն է՝ ատելության խոսքի դեմ պայքարին, առցանց ավելի անվտանգ միջավայրին և պատասխանատու մոդերացիային աջակցելու նպատակով։ Հետազոտության կամ համակարգի բարելավման նպատակներով մշակելիս կիրառվում են համապատասխան երաշխիքներ, ինչպիսիք են անանունացումը և համախմբումը։ Տվյալները չեն վաճառվում, վարձակալությամբ չեն տրամադրվում և չեն առևտրայնացվում։ Դրանք կարող են տրամադրվել միայն համախմբված կամ անանունացված ձևով՝ հետազոտության, հաշվետվությունների կամ թափանցիկության նպատակներով, կամ երբ բացահայտումը պահանջվում է օրենքով կամ իրավասու պետական մարմնի կողմից։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.4. Data is processed for the purposes specified in Section 3 of the Privacy Policy (Appendix 3): identifying and classifying hate speech and other harmful or platform-policy-violating content, flagging content for review by authorized moderators, and supporting moderation workflows using the native tools of the relevant platforms. As stated in the Privacy Policy, the legal basis for processing is legitimate interest in combating hate speech, supporting safer online environments, and enabling responsible moderation. Where data is processed for research or system improvement purposes, appropriate safeguards, such as anonymization and aggregation, are applied. Data is not sold, rented, or commercialized. It may be shared only in aggregated or anonymized form for research, reporting, or transparency purposes, or where disclosure is required by law or by a competent public authority.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.5. Հիմնադրամը պատասխանատվություն չի կրում Meta, YouTube կամ այլ սոցիալական հարթակների կողմից իրենց հարթակներում ինքնուրույն հավաքվող, պահվող կամ մշակվող բովանդակության և այդ հարթակների գործողությունների համար։ Սույն դրույթը չի սահմանափակում Հիմնադրամի՝ Գործիքի միջոցով իր կողմից իրականացվող տվյալների մշակման և Գաղտնիության քաղաքականությամբ ստանձնած պարտավորությունների պատասխանատվությունը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.5. The Foundation is not responsible for content independently collected, stored, or processed by Meta, YouTube, or other social platforms within their own services, or for the actions of those platforms. This Clause does not limit the Foundation's responsibility for data processing carried out by it through the Tool or for its obligations under the Privacy Policy.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.6. Կողմերի՝ անձնական տվյալների պաշտպանության ոլորտում դերերն ու պարտականությունները որոշվում են կիրառելի օրենսդրության և տվյալների մշակման յուրաքանչյուր գործողության փաստացի նպատակների ու միջոցների հիման վրա։ Սույն Պայմանագիրը չի ենթադրում, որ Հիմնադրամը տվյալների մշակման բոլոր գործողությունների մասով գործում է բացառապես Հաճախորդի հանձնարարությամբ։ Հաճախորդը պատասխանատու է իր էջերի օրինական կառավարման, մոդերացիոն քաղաքականության և իր կողմից կայացվող մոդերացիոն որոշումների համար։ Հիմնադրամը տվյալները մշակում է Գաղտնիության քաղաքականությամբ սահմանված շրջանակում և նպատակներով։ Տվյալները պահպանվում են միայն այնքան ժամանակ, որքան անհրաժեշտ է մոդերացիոն աշխատանքային գործընթացներին, վերլուծական գործառույթներին, հետազոտական գործունեությանը և համակարգի բարելավմանը աջակցելու համար. պահպանման գործելակերպը պարբերաբար վերանայվում է, և այլևս անհրաժեշտ չլինելու դեպքում տվյալները ջնջվում կամ անանունացվում են, եթե դրանց պահպանումը չի պահանջվում օրենքով։ Տվյալների հասանելիությունը սահմանափակվում է լիազորված օգտատերերով, իսկ դրանց բացահայտումը կամ փոխանցումը թույլատրվում է միայն 8.4 կետով և Գաղտնիության քաղաքականությամբ նախատեսված դեպքերում։ Հիմնադրամը կիրառում է տվյալների բնույթին և ռիսկերին համապատասխան տեխնիկական և կազմակերպչական պաշտպանության միջոցներ։ Անձնական տվյալների անվտանգության խախտման դեպքում Հիմնադրամը Հաճախորդին ծանուցում է անհապաղ, բայց ոչ ուշ, քան խախտման մասին տեղեկանալուց հետո 72 (յոթանասուներկու) ժամվա ընթացքում՝ իրեն հասանելի տեղեկություններով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "8.6. The Parties' roles and responsibilities in relation to personal data protection shall be determined in accordance with applicable law and the actual purposes and means of each processing activity. Nothing in this Agreement shall imply that the Foundation acts solely on the Client's instructions in respect of all processing activities. The Client is responsible for the lawful management of its pages, its moderation policy, and the moderation decisions it makes. The Foundation processes data within the scope and for the purposes set out in the Privacy Policy. Data is retained only for the period necessary to support moderation workflows, analytical functions, research activities, and system improvement; retention practices are periodically reviewed, and data is deleted or anonymized when no longer required, unless retention is necessary to comply with legal obligations. Access to processed data is restricted to authorized users, and disclosure or sharing is permitted only as provided in Clause 8.4 and the Privacy Policy. The Foundation implements technical and organizational measures appropriate to the nature of the data and the associated risks. In the event of a personal data security breach, the Foundation shall notify the Client without undue delay and no later than 72 (seventy-two) hours after becoming aware of it, with the information available to it.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9. ՖԻՆԱՆՍԱԿԱՆ ՊԱՅՄԱՆՆԵՐ ԵՎ ՎՃԱՐՄԱՆ ԿԱՐԳԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9. FINANCIAL CONDITIONS AND PAYMENT PROCEDURE",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1. Ծառայության արժեքը և ֆինանսավորման ձևաչափերը.",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1. Service Cost and Financing Formats.",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Ծառայությունների մատուցման ֆինանսական պայմանները սահմանվում են սույն Պայմանագրի անբաժանելի մասը հանդիսացող Պատվերով (Հավելված 1)՝ հետևյալ ձևաչափերից մեկով.",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "The financial terms for providing services are defined by the Order (Appendix 1) which is an integral part of this Agreement, in one of the following formats:",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1.1. Եթե Հաճախորդը հանդիսանում է Հիմնադրամի կամ երրորդ կողմի որևէ ծրագրի շահառու, առկա են դրամաշնորհային կամ ուղիղ աջակցության գործիքներ, և Կողմերը համաձայն են աշխատել նշված աջակցության շրջանակում, ապա Ծառայությունը Պատվերում նշված ժամկետում տրամադրվում է 0 (զրո) ՀՀ դրամով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1.1. If the Client is a beneficiary of any program of the Foundation or a third party, grant or direct support instruments are available, and the Parties agree to work within the framework of such support, the Service shall be provided at 0 (zero) AMD for the period specified in the Order.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1.2. Եթե Ծառայությունը տրամադրվում է համաֆինանսավորման կամ մասնակի ֆինանսավորման սկզբունքով, ապա Ծառայության արժեքի մի մասը ֆինանսավորվում է դրամաշնորհային կամ ուղիղ աջակցության միջոցներով, իսկ մնացած մասը վճարում է Հաճախորդը՝ Պատվերում սահմանված չափով, կարգով և ժամկետներում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1.2. If the Service is provided on the principle of co-financing or partial financing, then part of the Service cost is financed by grant or direct support funds, and the remaining part is paid by the Client in the amount, manner, and terms defined in the Order.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1.3. 9.1.1 և 9.1.2 կետերից դուրս միացող Հաճախորդների, ինչպես նաև դրամաշնորհային կամ ուղիղ աջակցության ժամկետը լրացած Հաճախորդների համար Ծառայությունները մատուցվում են վճարովի հիմունքներով՝ համաձայն Պատվերում սահմանված սակագնի, որը գոյանում է Հաճախորդի կարիքներից և մատուցվող Ծառայությունների ծավալից։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.1.3. For Clients joining outside Clauses 9.1.1 and 9.1.2, as well as for Clients whose term of grant or direct support has expired, Services are provided on a paid basis in accordance with the tariff specified in the Order, which is formed from the Client's needs and the volume of provided Services.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.2. Եթե Հաճախորդն օգտվում է սույն Պայմանագրի 9.1.1 և 9.1.2 կետերի արտոնյալ պայմաններից, Պատվերում սահմանված ժամկետի լրանալու հաջորդ օրվանից Հաճախորդի հասանելիությունը Գործիքին ավտոմատ կերպով արգելափակվում է։ Հիմնադրամը ծանուցում է Հաճախորդին արտոնյալ ժամկետի լրանալու մասին առնվազն 10 (տասը) օրացուցային օր առաջ՝ Պատվերում նշված էլեկտրոնային փոստի հասցեով, որպեսզի Հաճախորդը կարողանա պահպանել (ներբեռնել) իրեն տրամադրված վերլուծական հաշվետվությունները կամ կնքել նոր Պատվեր։ Գործիքից օգտվելու իրավունքը վերականգնվում է միայն Կողմերի միջև վճարովի Ծառայությունների մատուցման նոր Պատվեր (կամ լրացուցիչ համաձայնագիր) կնքելու և սահմանված վճարումը կատարելուց հետո։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.2. If the Client uses the preferential terms of Clauses 9.1.1 and 9.1.2 of this Agreement, from the day following the expiration of the term defined in the Order, the Client's access to the Tool is automatically blocked. The Foundation shall notify the Client of the expiry of the preferential term at least 10 (ten) calendar days in advance at the email address specified in the Order, so that the Client may save (download) the analytical reports provided to it or conclude a new Order. The right to use the Tool is restored only after concluding a new Order (or an additional agreement) on the provision of paid Services between the Parties and making the specified payment.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3. Վճարման կարգը.",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3. Payment Procedure.",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3.1. Սույն Պայմանագրի 9.1.2 և 9.1.3 կետերով նախատեսված դեպքերում Հաճախորդի կողմից վճարման ենթակա գումարը վճարվում է 100% կանխավճարային հիմունքներով, եթե Պատվերով այլ բան նախատեսված չէ։ Հաճախորդը պարտավոր է կատարել վճարումը յուրաքանչյուր հաշվարկային ամսվա (կամ Պատվերով սահմանված այլ ժամանակահատվածի) մեկնարկից առաջ՝ Հիմնադրամի կողմից ներկայացված հաշիվ-վավերագրի հիման վրա, դրանում նշված ժամկետում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3.1. In the cases provided for in Clauses 9.1.2 and 9.1.3 of this Agreement, the amount payable by the Client shall be paid on a 100% prepayment basis, unless otherwise provided in the Order. The Client is obliged to make the payment before the start of each billing month (or other period defined by the Order) based on the invoice presented by the Foundation, within the period specified therein.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3.2. Սահմանված ժամկետում կանխավճարը չվճարելու դեպքում Հիմնադրամն իրավունք ունի անմիջապես կասեցնել կամ արգելափակել Հաճախորդի հասանելիությունը Գործիքին՝ մինչև պարտքի ամբողջական մարումը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3.2. In case of non-payment of the prepayment within the specified period, the Foundation has the right to immediately suspend or block the Client's access to the Tool until the full repayment of the debt.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3.3. Բոլոր վճարումները կատարվում են ՀՀ դրամով՝ փոխանցումը կատարելով Հիմնադրամի՝ Պատվերում կամ հաշիվ-վավերագրում նշված բանկային հաշվեհամարին։ Պատվերում նշված գները վերջնական են և ներառում են բոլոր կիրառելի հարկերը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "9.3.3. All payments are made in Armenian drams (AMD) by transfer to the Foundation's bank account specified in the Order or the invoice. The prices specified in the Order are final and include all applicable taxes.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "10. ՄՏԱՎՈՐ ՍԵՓԱԿԱՆՈՒԹՅՈՒՆ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "10. INTELLECTUAL PROPERTY",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "10.1. «moderAItor» գործիքի, դրա ծրագրային կոդի, ալգորիթմների, արհեստական բանականության մոդելների, ապրանքային նշանների, ձևավորման (օգտատիրոջ միջերես/ օգտատիրոջ փորձառություն) և փաստաթղթերի նկատմամբ բոլոր բացառիկ մտավոր սեփականության իրավունքները պատկանում են բացառապես «Բոլորը հանուն հավասար իրավունքների» հիմնադրամին։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "10.1. All exclusive intellectual property rights to the \"moderAItor\" tool, its source code, algorithms, artificial intelligence models, trademarks, design (user interface/user experience), and documentation belong exclusively to the \"All for Equal Rights\" Foundation.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "10.2. Հաճախորդի տվյալների և հանրային էջերի բովանդակության նկատմամբ իրավունքները պատկանում են Հաճախորդին և/կամ համապատասխան սոցիալական հարթակներին։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "10.2. The rights to the Client's data and the content of public pages belong to the Client and/or the respective social platforms.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "11. ԵՐԱՇԽԻՔՆԵՐԻ ՍԱՀՄԱՆԱՓԱԿՈՒՄ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "11. LIMITATION OF WARRANTIES",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "11.1. «moderAItor» գործիքը տրամադրվում է «ԻՆՉՊԵՍ ՈՐ Է» («AS IS») և «ԻՆՉՊԵՍ ՈՐ ԱՌԿԱ Է» («AS AVAILABLE») սկզբունքով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "11.1. The \"moderAItor\" tool is provided on an \"AS IS\" and \"AS AVAILABLE\" basis.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "11.2. Հիմնադրամը չի երաշխավորում, որ Գործիքի աշխատանքը կլինի անխափան, անսխալ կամ լիովին համապատասխան Հաճախորդի առանձնահատուկ կարիքներին։ Հիմնադրամը չի երաշխավորում արհեստական բանականության դասակարգման 100% ճշգրտություն։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "11.2. The Foundation does not guarantee that the operation of the Tool will be uninterrupted, error-free, or fully compliant with the specific needs of the Client. The Foundation does not guarantee 100% accuracy of artificial intelligence classification.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12. ՊԱՏԱՍԽԱՆԱՏՎՈՒԹՅԱՆ ՍԱՀՄԱՆԱՓԱԿՈՒՄ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12. LIMITATION OF LIABILITY",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.1. Օրենքով թույլատրելի առավելագույն սահմաններում Հիմնադրամը պատասխանատվություն չի կրում անուղղակի, պատահական, հետևանքային վնասների, բաց թողնված օգուտի, ինչպես նաև Հաճախորդի կողմից արհեստական բանականության գնահատականների հիման վրա կայացված մոդերացիոն որոշումների (օրինակ՝ մեկնաբանություն ջնջելու կամ օգտատիրոջը արգելափակելու) հետևանքով առաջացած վեճերի համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.1. To the maximum extent permitted by law, the Foundation is not liable for indirect, incidental, consequential damages, lost profits, as well as for disputes arising as a result of moderation decisions made by the Client based on artificial intelligence assessments (for example, deleting a comment or blocking a user).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.2. Եթե Ծառայությունների մատուցման ընթացքում օգտագործվում են երրորդ անձանց, այդ թվում՝ Google-ի կողմից տրամադրվող արհեստական բանականության, մեքենայական ուսուցման կամ գեներատիվ AI մոդելներ, հարթակներ, գործիքներ կամ ծառայություններ, ապա Հիմնադրամը պատասխանատվություն չի կրում բացառապես այդ երրորդ անձանց մոդելների կամ ծառայությունների աշխատանքի հետևանքով առաջացած սխալների, անճշտությունների, բացթողումների, սահմանափակումների, հասանելիության խափանումների կամ այլ տեխնիկական թերությունների համար, եթե Հիմնադրամը չի նպաստել դրանց առաջացմանն իր ոչ պատշաճ գործողություններով կամ անգործությամբ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.2. If, in the course of providing the Services, artificial intelligence, machine learning or generative AI models, platforms, tools or services provided by third parties, including Google, are used, the Foundation shall not be liable for errors, inaccuracies, omissions, limitations, availability disruptions or other technical deficiencies arising solely from the operation of such third-party models or services, unless the Foundation contributed to their occurrence through its own improper action or inaction.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.3. Հիմնադրամը պատասխանատու է իր կողմից մատուցվող Ծառայությունների այն մասի պատշաճ իրականացման համար, որը գտնվում է իր վերահսկողության ներքո, այդ թվում՝ երրորդ անձանց մոդելների և ծառայությունների պատշաճ ինտեգրման և Գործիքի բնականոն աշխատանքի ապահովման համար՝ հաշվի առնելով սույն Պայմանագրի 4-րդ և 11-րդ գլուխների դրույթները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.3. The Foundation is responsible for the proper performance of that part of the Services which is under its control, including the proper integration of third-party models and services and ensuring the normal operation of the Tool, subject to the provisions of Sections 4 and 11 of this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.4. Հաճախորդը Հիմնադրամի առջև չի կրում պատասխանատվություն երրորդ անձի արհեստական բանականության մոդելի կամ ծառայության տեխնիկական սխալների կամ սահմանափակումների համար, որոնց նկատմամբ Հաճախորդը չունի վերահսկողություն և որոնք չեն առաջացել Հաճախորդի կողմից տրամադրված սխալ տվյալների, հրահանգների կամ այլ նյութերի հետևանքով։ Սույն կետը չի սահմանափակում սույն Պայմանագրի 4.4 կետով սահմանված Հաճախորդի պատասխանատվությունը մոդերացիոն որոշումների համար։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.4. The Client shall not be liable to the Foundation for technical errors or limitations of a third-party artificial intelligence model or service over which the Client has no control and which did not arise from incorrect data, instructions or other materials provided by the Client. This clause does not limit the Client's responsibility for moderation decisions under Clause 4.4 of this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.5. Եթե համապատասխան երրորդ անձի, այդ թվում՝ Google-ի, պայմաններով, քաղաքականություններով կամ պաշտոնական փաստաթղթերով տվյալ մոդելի կամ ծառայության օգտագործման, երրորդ անձի պայմաններով նախատեսված պատասխանատվության և վնասների փոխհատուցման մեխանիզմների, սահմանափակումների կամ այլ պաշտպանության վերաբերյալ նախատեսված են հատուկ դրույթներ, ապա այդ դրույթները կիրառվում են նաև սույն Պայմանագրի շրջանակներում՝ տվյալ երրորդ անձի ծառայության օգտագործման համապատասխան մասով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.5. Where the terms, policies or official documentation of the relevant third party, including Google, contain specific provisions on the use of the given model or service, on the liability and indemnification mechanisms provided for by that third party's terms, or on limitations or other protections, such provisions shall also apply within the framework of this Agreement to the extent of the use of that third party's service.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.6. Google-ի համապատասխան պայմաններն ու ծառայությունների վերաբերյալ պաշտոնական փաստաթղթերը հասանելի են Google Cloud-ի պաշտոնական «Օգտագործման պայմաններ» (Terms) բաժնում (https://cloud.google.com/terms) և, անհրաժեշտության դեպքում, կարող են ներառվել սույն Պայմանագրի անբաժանելի հավելվածի կամ հղումով հասանելի փաստաթղթերի ցանկում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.6. Google's relevant terms and official documentation regarding its services are available in the official \"Terms\" section of Google Cloud (https://cloud.google.com/terms) and, where necessary, may be included in the list of integral appendices to this Agreement or of documents accessible by reference.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.7. Սույն Պայմանագրով Հիմնադրամի ընդհանուր պատասխանատվությունը չի կարող գերազանցել պահանջի ծագմանը նախորդող 12 (տասներկու) ամսվա ընթացքում Հաճախորդի կողմից սույն Պայմանագրով փաստացի վճարված գումարը, իսկ սույն Պայմանագրի 9.1.1 կետով նախատեսված դեպքում՝ 0 (զրո) ՀՀ դրամը, բացառությամբ այն դեպքերի, երբ պատասխանատվության նման սահմանափակումն արգելված է օրենքով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "12.7. The Foundation's aggregate liability under this Agreement shall not exceed the amount actually paid by the Client under this Agreement during the 12 (twelve) months preceding the claim or, in the case provided for in Clause 9.1.1 of this Agreement, AMD 0 (zero), except where such limitation of liability is prohibited by law.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13. ՊԱՅՄԱՆԱԳՐԻ ԳՈՐԾՈՂՈՒԹՅԱՆ ԺԱՄԿԵՏԸ ԵՎ ԼՈՒԾՈՒՄԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13. TERM AND TERMINATION OF THE AGREEMENT",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.1. Սույն Պայմանագիրն ուժի մեջ է մտնում Պատվերի ստորագրման (հաստատման) պահից և գործում է անորոշ ժամկետով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.1. This Agreement enters into force from the moment the Order is signed (confirmed) and is valid for an indefinite period.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.2. Ցանկացած Կողմ իրավունք ունի լուծել սույն Պայմանագիրը՝ այդ մասին մյուս Կողմին գրավոր (սույն Պայմանագրի 16.1 կետով սահմանված էլեկտրոնային փոստի հասցեներով) ծանուցելով առնվազն 30 (երեսուն) օր առաջ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.2. Either Party has the right to terminate this Agreement by notifying the other Party in writing (to the email addresses specified in Clause 16.1 of this Agreement) at least 30 (thirty) days in advance.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.3. Հիմնադրամն իրավունք ունի միակողմանի լուծել Պայմանագիրն անհապաղ, եթե Հաճախորդը խախտել է 5.2 կետի կամ 7-րդ և 9-րդ գլուխների պահանջները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.3. The Foundation has the right to unilaterally terminate the Agreement immediately if the Client has violated the requirements of Clause 5.2 or Sections 7 and 9.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.4. Պայմանագրի լուծման դեպքում՝ ա) Հաճախորդի տվյալները պահպանվում և ոչնչացվում են Տվյալների ոչնչացման քաղաքականությանը (Հավելված 4) համապատասխան, իսկ Հաճախորդը կարող է մինչև Պայմանագրի լուծումը պահպանել (ներբեռնել) իրեն տրամադրված վերլուծական հաշվետվությունները (իսկ սույն Պայմանագրի 13.3 կետով նախատեսված դեպքում Հիմնադրամը դրանք էլեկտրոնային եղանակով տրամադրում է Հաճախորդին վերջինիս գրավոր պահանջով, որը ներկայացվել է Պայմանագրի լուծումից հետո 10 (տասը) աշխատանքային օրվա ընթացքում), բ) Հաճախորդի կողմից վճարված, սակայն չօգտագործված ժամանակահատվածի կանխավճարը վերադարձվում է Հաճախորդին Պայմանագրի լուծումից հետո 10 (տասը) աշխատանքային օրվա ընթացքում, բացառությամբ սույն Պայմանագրի 13.3 կետով նախատեսված դեպքի, գ) սույն Պայմանագրի 7.2 կետի, ինչպես նաև 8, 10, 12 և 15-րդ գլուխների դրույթները շարունակում են գործել Պայմանագրի լուծումից հետո։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "13.4. Upon termination of this Agreement: a) the Client's data shall be retained and deleted in accordance with the Data Deletion Policy (Appendix 4), and the Client may, prior to termination, save (download) the analytical reports provided to it (and, in the case provided for in Clause 13.3 of this Agreement, the Foundation shall provide such reports to the Client electronically upon its written request submitted within 10 (ten) working days after termination); b) the prepayment paid by the Client for the unused period shall be refunded to the Client within 10 (ten) working days after termination, except in the case provided for in Clause 13.3 of this Agreement; c) the provisions of Clause 7.2 and Sections 8, 10, 12 and 15 of this Agreement shall survive its termination.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "14. ԱՆՀԱՂԹԱՀԱՐԵԼԻ ՈՒԺ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "14. FORCE MAJEURE",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "14.1. Կողմերն ազատվում են պատասխանատվությունից պարտավորությունները մասնակի կամ լրիվ չկատարելու համար, եթե դա եղել է անհաղթահարելի ուժի ազդեցության հետևանքով (երկրաշարժ, ջրհեղեղ, պատերազմ, արտակարգ դրություն, սոցիալական ցանցերի (Meta, YouTube) API-ների անկանխատեսելի արգելափակում կամ ինտերնետի խափանում)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "14.1. The Parties are relieved of liability for partial or complete non-fulfillment of obligations if it was the result of the influence of force majeure (earthquake, flood, war, state of emergency, unpredictable blocking of social networks (Meta, YouTube) APIs, or internet disruption).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "15. ԿԻՐԱՌԵԼԻ ԻՐԱՎՈՒՆՔ ԵՎ ՎԵՃԵՐԻ ԼՈՒԾՈՒՄ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "15. APPLICABLE LAW AND DISPUTE RESOLUTION",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "15.1. Սույն Պայմանագիրը կարգավորվում և մեկնաբանվում է Հայաստանի Հանրապետության օրենսդրությամբ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "15.1. This Agreement is governed and interpreted in accordance with the legislation of the Republic of Armenia.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "15.2. Սույն Պայմանագրից բխող բոլոր վեճերը լուծվում են բանակցությունների միջոցով։ Համաձայնություն ձեռք չբերվելու դեպքում վեճերը ենթակա են լուծման Հայաստանի Հանրապետության իրավասու դատարաններում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "15.2. All disputes arising from this Agreement shall be resolved through negotiations. If an agreement is not reached, disputes are subject to resolution in the competent courts of the Republic of Armenia.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16. ԾԱՆՈՒՑՈՒՄՆԵՐ ԵՎ ՊԱՅՄԱՆԱԳՐԻ ՓՈՓՈԽՈՒԹՅՈՒՆՆԵՐ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16. NOTICES AND AMENDMENTS TO THE AGREEMENT",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.1. Սույն Պայմանագրի կատարման, դրա փոփոխության կամ լրացման, ինչպես նաև Կողմերի միջև իրավական նշանակություն ունեցող այլ հաղորդակցությունների վերաբերյալ բոլոր ծանուցումները համարվում են պատշաճ, եթե կատարվել են գրավոր՝ սույն Պայմանագրում կամ Պատվերի ձևում նշված էլեկտրոնային փոստի հասցեներով (Ծառայություն մատուցողի համար՝ info@moderaitor.app, info@allrights.am)։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.1. All notices regarding the execution of this Agreement, its amendment or addition, as well as other communications having legal significance between the Parties, are considered proper if made in writing to the email addresses specified in this Agreement or in the Order Form (for the Service Provider: info@moderaitor.app, info@allrights.am).",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.2. Ծանուցումը համարվում է ստացված այն ուղարկելու օրվան հաջորդող աշխատանքային օրը, եթե ուղարկող Կողմը չի ստացել հաղորդագրություն այն մասին, որ էլեկտրոնային նամակը չի առաքվել հասցեատիրոջը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.2. The notice is considered received on the working day following the day it was sent, provided the sending Party has not received a message stating that the email was not delivered to the addressee.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.3. Հիմնադրամն իրավունք ունի անհրաժեշտության դեպքում փոփոխելու կամ լրացնելու սույն Պայմանագիրը և դրա անբաժանելի մասը կազմող հավելվածները, քաղաքականությունները, տեխնիկական և կազմակերպչական պահանջները, ինչպես նաև Ծառայության օգտագործման կանոնները՝ մասնավորապես կիրառելի օրենսդրության, տեղեկատվական անվտանգության պահանջների, տեխնոլոգիական փոփոխությունների կամ Ծառայության ֆունկցիոնալ հնարավորությունների փոփոխության անհրաժեշտության դեպքում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.3. The Foundation has the right, if necessary, to amend or supplement this Agreement and its integral appendices, policies, technical and organizational requirements, as well as the rules of using the Service, in particular where necessitated by changes in applicable legislation or information security requirements, technological changes, or changes to the functional capabilities of the Service.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.4. Սույն Պայմանագրի կամ դրա հավելվածների փոփոխության կամ լրացման դեպքում Հիմնադրամը պարտավոր է այդ մասին Հաճախորդին ծանուցել Պատվերի ձևում նշված էլեկտրոնային փոստի հասցեով՝ տրամադրելով փոփոխված կամ լրացված փաստաթղթի գործող տարբերակը կամ դրա հասանելիության էլեկտրոնային հղումը, ինչպես նաև հրապարակելով այն սույն Պայմանագրի հրապարակման վայրում։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.4. In case of amendment or addition to this Agreement or its appendices, the Foundation is obliged to notify the Client about it at the email address specified in the Order Form, providing the current version of the amended or supplemented document or an electronic link to access it, and shall also publish it at the place where this Agreement is published.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Այդպիսի ծանուցումը համարվում է Հաճախորդին պատշաճ և բավարար ծանուցում, և փոփոխության կամ լրացման համար առանձին լրացուցիչ համաձայնագիր կամ նոր հավելված ստորագրելու անհրաժեշտություն չի առաջանում, եթե սույն Պայմանագրով ուղղակիորեն այլ բան նախատեսված չէ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Such notification is considered proper and sufficient notice to the Client, and there is no need to sign a separate additional agreement or a new appendix for the amendment or addition, unless directly otherwise provided by this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.5. Փոփոխությունները և լրացումները ուժի մեջ են մտնում ծանուցման մեջ նշված ամսաթվից, սակայն ոչ շուտ, քան Հաճախորդին ծանուցումն ուղարկելուց 10 (տասը) օրացուցային օր հետո, բացառությամբ այն փոփոխությունների, որոնց անհապաղ կիրառումը պայմանավորված է օրենքի, իրավասու մարմնի պահանջի կամ տեղեկատվական անվտանգության ապահովման անհրաժեշտությամբ։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.5. Amendments and additions enter into force from the date specified in the notice, but not earlier than 10 (ten) calendar days after sending the notice to the Client, except for those changes the immediate application of which is conditioned by law, the requirement of a competent authority, or the necessity to ensure information security.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.6. Հաճախորդի կողմից Ծառայության օգտագործումը փոփոխությունների կամ լրացումների ուժի մեջ մտնելուց հետո համարվում է դրանց ընդունում, եթե Հաճախորդը մինչև դրանց ուժի մեջ մտնելը (կամ սույն Պայմանագրի 16.8 կետով նախատեսված ժամկետում) գրավոր չի հայտնել Պայմանագրի լուծման մասին՝ սույն Պայմանագրով սահմանված կարգով։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.6. The use of the Service by the Client after the entry into force of the amendments or additions is considered their acceptance, unless the Client has informed in writing about the termination of this Agreement prior to their entry into force (or within the period provided for in Clause 16.8 of this Agreement), in the manner defined by this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.7. Պայմանագրի 16.6 կետը չի տարածվում այն փոփոխությունների վրա, որոնք Հաճախորդի համար ստեղծում կամ ավելացնում են վճարային պարտավորություն կամ էականորեն փոփոխում են արդեն վճարված ծառայության ծավալը։ Նման փոփոխությունները Հաճախորդի համար ուժի մեջ են մտնում միայն նրա գրավոր համաձայնությամբ կամ նոր Պատվերի ստորագրմամբ (հաստատմամբ)։ Մինչ այդ Հաճախորդի նկատմամբ կիրառվում են գործող Պատվերով սահմանված պայմանները։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.7. Clause 16.6 of the Agreement does not apply to changes that create or increase a payment obligation for the Client or significantly change the volume of an already paid service. Such changes shall become effective for the Client only upon its written consent or the signing (confirmation) of a new Order. Until then, the terms of the current Order shall continue to apply to the Client.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.8. Պայմանագրի կամ դրա հավելվածների փոփոխություններին չհամաձայնելու դեպքում Հաճախորդն իրավունք ունի միակողմանի լուծել սույն Պայմանագիրը՝ այդ մասին Հիմնադրամին գրավոր ծանուցելով մինչև փոփոխությունների ուժի մեջ մտնելը (իսկ սույն Պայմանագրի 16.5 կետով նախատեսված անհապաղ կիրառվող փոփոխությունների դեպքում՝ դրանց մասին ծանուցումն ստանալուց հետո 10 (տասը) օրացուցային օրվա ընթացքում)՝ առանց սույն Պայմանագրի 13.2 կետով սահմանված ժամկետը պահպանելու։ Մինչև Պայմանագրի լուծումը Կողմերի հարաբերությունները կարգավորվում են Պայմանագրի նախկին խմբագրությամբ, բացառությամբ սույն Պայմանագրի 16.5 կետով նախատեսված անհապաղ կիրառվող փոփոխությունների։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "16.8. If the Client does not agree to amendments to this Agreement or its Appendices, the Client may unilaterally terminate this Agreement by written notice to the Foundation before such amendments enter into force (or, in the case of amendments applied immediately under Clause 16.5 of this Agreement, within 10 (ten) calendar days after receipt of the notice thereof), without observing the notice period set out in Clause 13.2 of this Agreement. Until termination, the relations of the Parties shall be governed by the previous version of the Agreement, except for amendments applied immediately under Clause 16.5 of this Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17. ՊԱՅՄԱՆԱԳՐԻ ԼԵԶՈՒՆ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17. LANGUAGE OF THE AGREEMENT",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17.1. Սույն Պայմանագիրը կազմված է հայերեն և անգլերեն լեզուներով, ընդ որում՝ երկու լեզվով կազմված տեքստերը հանդիսանում են նույն Պայմանագրի անբաժանելի մասերը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17.1. This Agreement is drawn up in Armenian and English languages, and the texts compiled in both languages are integral parts of the same Agreement.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17.2. Սույն Պայմանագրի, դրա հավելվածների, Պատվերի ձևի կամ այլ անբաժանելի փաստաթղթերի հայերեն և անգլերեն տարբերակների միջև անհամապատասխանության, հակասության, երկիմաստության կամ տարընկալման դեպքում գերակայում է հայերեն լեզվով կազմված տարբերակը, և իրավական մեկնաբանության նպատակներով հիմք է ընդունվում հայերեն տեքստը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17.2. In case of inconsistency, contradiction, ambiguity, or discrepancy between the Armenian and English versions of this Agreement, its appendices, the Order Form, or other integral documents, the version compiled in Armenian shall prevail, and the Armenian text shall be taken as a basis for legal interpretation purposes.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17.3. Կողմերը հաստատում են, որ Պայմանագիրը կնքելիս հնարավորություն են ունեցել ծանոթանալ դրա հայերեն և անգլերեն տարբերակներին և հասկացել են դրանց բովանդակությունը։",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "17.3. The Parties confirm that when concluding the Agreement they had the opportunity to familiarize themselves with its Armenian and English versions and understood their content.",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "18. ԾԱՌԱՅՈՒԹՅՈՒՆ ՄԱՏՈՒՑՈՂԻ ՎԱՎԵՐԱՊԱՅՄԱՆՆԵՐԸ",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "18. SERVICE PROVIDER DETAILS",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Անվանում՝ «Բոլորը հանուն հավասար իրավունքների» հիմնադրամ",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Name: \"All for Equal Rights\" Foundation",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "ՀՎՀՀ՝ 05547102, գրանցման համար՝ 222.160.1033857",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "TIN: 05547102, registration number: 222.160.1033857",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Իրավաբանական հասցե՝ Մսի կոմբինատ, շենք 10, բնակարան 27, Գյումրի, 3119, Հայաստան",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Legal address: Msi Kombinat, Building 10, Apartment 27, Gyumri, 3119, Armenia",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Էլեկտրոնային փոստ՝ info@moderaitor.app, info@allrights.am",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Email: info@moderaitor.app, info@allrights.am",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Հեռախոս՝ +374 55 065935",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Phone: +374 55 065935",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Բանկ՝ Ինեկոբանկ, հաշվեհամար՝ 2050122215161003",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Bank: Inecobank, account number: 2050122215161003",
+       "bold": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Կայք՝ https://moderaitor.app",
+       "bold": false
+      }
+     ]
+    },
+    {
+     "span": 1,
+     "paras": [
+      {
+       "text": "Website: https://moderaitor.app",
+       "bold": false
+      }
+     ]
+    }
+   ]
+  ]
+ }
+]
