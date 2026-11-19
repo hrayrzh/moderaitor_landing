@@ -1,5 +1,6 @@
 /* TEAM */
-Organization: Media Diversity Institute
+Organization: All for Equal Rights Foundation (operator)
+Technology: Media Diversity Institute
 Contact: info@mdi.am, info@moderaitor.app
 Location: 9b Ghazar Parpetsi Street, Yerevan 0002, Armenia
 
