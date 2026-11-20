@@ -9,8 +9,39 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.dirname(HERE
 VERSION = '1.0'
 EFFECTIVE_EN = '20 November 2026'
 EFFECTIVE_HY = '2026 թ. նոյեմբերի 20'
-MSA_DOCX = 'assets/docs/moderAItor_MSA_v1.0_AM-EN.docx'
-ORDER_DOCX = 'assets/docs/moderAItor_Order_Form_v1.0_AM-EN.docx'
+MSA_PDF = 'assets/docs/moderAItor_MSA_v1.0_AM-EN.pdf'
+ORDER_PDF = 'assets/docs/moderAItor_Order_Form_v1.0_AM-EN.pdf'
+
+
+def pdf_button(path, primary=False):
+    """Download button labelled with the file name."""
+    name = os.path.basename(path)
+    cls = 'btn' if primary else 'btn btn-bordered'
+    return f'<a class="{cls}" href="{path}" download><i class="fa-solid fa-file-pdf"></i><code>{name}</code></a>'
+
+
+SOCIAL = '''									<div class="social-icons d-flex mt-3">
+										<a class="icon has-overlay overlay-gradient" href="https://www.facebook.com/allrightsfoundation/" target="_blank" rel="noopener noreferrer" aria-label="All for Equal Rights Foundation on Facebook">
+											<i class="fa-brands fa-facebook-f"></i>
+											<i class="fa-brands fa-facebook-f"></i>
+										</a>
+										<a class="icon has-overlay overlay-gradient" href="https://www.instagram.com/allrightsfoundation/" target="_blank" rel="noopener noreferrer" aria-label="All for Equal Rights Foundation on Instagram">
+											<i class="fa-brands fa-instagram"></i>
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+										<a class="icon has-overlay overlay-gradient" href="https://www.linkedin.com/company/allrightsfoundation" target="_blank" rel="noopener noreferrer" aria-label="All for Equal Rights Foundation on LinkedIn">
+											<i class="fa-brands fa-linkedin-in"></i>
+											<i class="fa-brands fa-linkedin-in"></i>
+										</a>
+										<a class="icon has-overlay overlay-gradient" href="https://www.youtube.com/channel/UC0WBorzJ6yrQ7p2cYjOp79Q" target="_blank" rel="noopener noreferrer" aria-label="All for Equal Rights Foundation on YouTube">
+											<i class="fa-brands fa-youtube"></i>
+											<i class="fa-brands fa-youtube"></i>
+										</a>
+										<a class="icon has-overlay overlay-gradient" href="https://t.me/allrightsfoundation" target="_blank" rel="noopener noreferrer" aria-label="All for Equal Rights Foundation on Telegram">
+											<i class="fa-brands fa-telegram"></i>
+											<i class="fa-brands fa-telegram"></i>
+										</a>
+									</div>'''
 
 ARM = re.compile(r'[԰-֏]')
 esc = lambda s: html.escape(s, quote=False)
@@ -177,24 +208,7 @@ FOOTER = '''			<!--====== Footer Area Start ======-->
 									<hr>
 
 									<!-- Social Icons -->
-									<div class="social-icons d-flex mt-3">
-										<a class="icon has-overlay overlay-gradient" href="#" aria-label="Social media link">
-											<i class="fa-brands fa-facebook-f"></i>
-											<i class="fa-brands fa-facebook-f"></i>
-										</a>
-										<a class="icon has-overlay overlay-gradient" href="#" aria-label="Social media link">
-											<i class="fa-brands fa-x-twitter"></i>
-											<i class="fa-brands fa-x-twitter"></i>
-										</a>
-										<a class="icon has-overlay overlay-gradient" href="#" aria-label="Social media link">
-											<i class="fa-brands fa-linkedin-in"></i>
-											<i class="fa-brands fa-linkedin-in"></i>
-										</a>
-										<a class="icon has-overlay overlay-gradient" href="#" aria-label="Social media link">
-											<i class="fa-brands fa-github"></i>
-											<i class="fa-brands fa-github"></i>
-										</a>
-									</div>
+''' + SOCIAL + '''
 								</div>
 							</div>
 							<div class="col-12 col-sm-6 col-lg-4 item">
@@ -325,23 +339,26 @@ LANG_SCRIPT = '''		<script>
 		(function () {
 			var body = document.body;
 			var buttons = document.querySelectorAll('.lang-toggle button');
-			function apply(mode) {
+			function apply(mode, remember) {
 				body.classList.remove('lang-hy', 'lang-en');
-				if (mode === 'hy' || mode === 'en') { body.classList.add('lang-' + mode); }
+				body.classList.add('lang-' + mode);
 				buttons.forEach(function (b) { b.classList.toggle('active', b.getAttribute('data-lang') === mode); });
-				try { localStorage.setItem('legal-lang', mode); } catch (e) {}
+				document.documentElement.lang = mode;
+				if (remember) { try { localStorage.setItem('legal-lang', mode); } catch (e) {} }
 			}
-			buttons.forEach(function (b) { b.addEventListener('click', function () { apply(b.getAttribute('data-lang')); }); });
-			var saved = 'both';
-			try { saved = localStorage.getItem('legal-lang') || 'both'; } catch (e) {}
-			apply(saved);
+			buttons.forEach(function (b) { b.addEventListener('click', function () { apply(b.getAttribute('data-lang'), true); }); });
+			apply(body.classList.contains('lang-hy') ? 'hy' : 'en', false);
 		})();
 		</script>
 '''
 
+# Runs before the page paints: picks the remembered language, else the browser language.
+LANG_BOOT = '''<script>(function(){var m=null;try{m=localStorage.getItem('legal-lang');}catch(e){}if(m!=='hy'&&m!=='en'){m=(navigator.language||'').toLowerCase().indexOf('hy')===0?'hy':'en';}document.body.className='lang-'+m;})();</script>'''
 
-def page(*, file, title, description, h1, crumb, body_html, extra_head='', extra_script='', noindex=False):
+
+def page(*, file, title, description, h1, crumb, body_html, extra_head='', extra_script='', noindex=False, bilingual=False):
     robots = 'noindex, follow' if noindex else 'index, follow'
+    body_boot = ('\n' + LANG_BOOT) if bilingual else ''
     canonical = 'https://moderaitor.app/msa.html' if file.startswith('msa') else 'https://moderaitor.app/' + file
     return f'''<!doctype html>
 <html class="no-js" lang="en">
@@ -388,7 +405,7 @@ def page(*, file, title, description, h1, crumb, body_html, extra_head='', extra
 {extra_head}
 </head>
 
-<body>
+<body>{body_boot}
 	<div class="main">
 		<!-- ***** Preloader Start ***** -->
 		<div class="preloader-main">
@@ -487,51 +504,88 @@ def build_msa(archived):
 
         out.append(f'<div class="{cls}"{attrs}>{cell(hy, "hy")}{cell(en, "en")}</div>')
 
-    toc_html = '<ol class="legal-toc">' + ''.join(
-        f'<li><a href="#section-{n}">{esc(re.sub(r"^\d+\.\s+", "", e).title() if e.isupper() else e)}</a><small lang="hy">{esc(re.sub(r"^\d+\.\s+", "", h))}</small></li>'
-        for n, e, h in toc) + '</ol>'
+    def toc_items(lang):
+        items = []
+        for n, e, h in toc:
+            if lang == 'hy':
+                title = re.sub(r"^\d+\.\s+", "", h)
+            else:
+                title = re.sub(r"^\d+\.\s+", "", e)
+                if title.isupper():
+                    title = title.title()
+            items.append(f'<li><a href="#section-{n}">{esc(title)}</a></li>')
+        return ''.join(items)
+    toc_html = (f'<ol class="legal-toc only-en">{toc_items("en")}</ol>'
+                f'<ol class="legal-toc only-hy" lang="hy">{toc_items("hy")}</ol>')
 
     if archived:
-        banner = f'''<div class="archived-banner">
+        banner = f'''<div class="archived-banner only-en">
 	<p><strong>Archived copy.</strong> You are viewing version {VERSION} of the Master Service Agreement, effective from {EFFECTIVE_EN}. This is the current version. The latest version is always published at <a href="msa.html">moderaitor.app/msa.html</a>.</p>
-	<p lang="hy" class="mt-2"><strong>Արխիվային օրինակ.</strong> Դուք դիտում եք Հիմնական պայմանագրի {VERSION} խմբագրությունը, որը գործում է {EFFECTIVE_HY}-ից։ Գործող խմբագրությունը միշտ հրապարակվում է <a href="msa.html">moderaitor.app/msa.html</a> հասցեում։</p>
+</div>
+<div class="archived-banner only-hy" lang="hy">
+	<p><strong>Արխիվային օրինակ.</strong> Դուք դիտում եք Հիմնական պայմանագրի {VERSION} խմբագրությունը, որը գործում է {EFFECTIVE_HY}-ից։ Սա գործող խմբագրությունն է։ Գործող խմբագրությունը միշտ հրապարակվում է <a href="msa.html">moderaitor.app/msa.html</a> հասցեում։</p>
 </div>'''
     else:
         banner = ''
 
-    meta = f'''<div class="legal-meta">
-	<span class="legal-badge">Master Service Agreement · Public Offer</span>
-	<dl>
-		<dt>Document</dt><dd>"moderAItor" Artificial Intelligence Moderation Tool Master Service Agreement (MSA)<br><span lang="hy">«moderAItor» ԱԲ մոդերացիոն գործիքի ծառայությունների մատուցման հիմնական պայմանագիր</span></dd>
-		<dt>Version</dt><dd>{VERSION}</dd>
-		<dt>Effective from</dt><dd>{EFFECTIVE_EN} · <span lang="hy">{EFFECTIVE_HY}</span></dd>
-		<dt>Status</dt><dd>Current version</dd>
-		<dt>Languages</dt><dd>Armenian and English. In case of discrepancy, the Armenian text prevails (Clause 17.2).</dd>
-	</dl>
-	<p>The Appendices form an integral part of this Agreement: <a href="order-form.html">Appendix 1 – Order Form</a>, <a href="terms.html">Appendix 2 – Terms of Service</a>, <a href="privacy.html">Appendix 3 – Privacy Policy</a>, <a href="data-deletion.html">Appendix 4 – Data Deletion Policy</a>, <a href="editorial-policy.html">Appendix 5 – Model Comment Moderation Editorial Policy</a>. Previous versions: see <a href="#version-history">Version history</a>.</p>
-	<div class="legal-actions">
-		<a class="btn btn-bordered swap-icon" href="{MSA_DOCX}" download><i class="fa-solid fa-file-word"></i>Download DOCX (AM/EN)</a>
-		<a class="btn btn-bordered swap-icon" href="order-form.html"><i class="fa-solid fa-file-signature"></i>Order Form</a>
-	</div>
-</div>'''
-
-    toggle = '''<div class="lang-toggle" role="group" aria-label="Document language">
-	<span>Show:</span>
-	<button type="button" data-lang="both" class="active">Հայերեն + English</button>
+    toggle = '''<div class="lang-toggle" role="group" aria-label="Document language / Փաստաթղթի լեզու">
 	<button type="button" data-lang="hy" lang="hy">Հայերեն</button>
 	<button type="button" data-lang="en">English</button>
 </div>'''
 
-    history = f'''<h3 id="version-history" class="mt-5 mb-3">Version history · <span lang="hy">Խմբագրությունների պատմություն</span></h3>
+    order_btn_en = '<a class="btn btn-bordered" href="order-form.html"><i class="fa-solid fa-file-signature"></i>Order Form (Appendix 1)</a>'
+    order_btn_hy = '<a class="btn btn-bordered" href="order-form.html"><i class="fa-solid fa-file-signature"></i>Պատվերի ձև (Հավելված 1)</a>'
+
+    meta_en = f'''<div class="legal-meta only-en">
+	<span class="legal-badge">Master Service Agreement · Public Offer</span>
+	<dl>
+		<dt>Document</dt><dd>"moderAItor" Artificial Intelligence Moderation Tool Master Service Agreement (MSA)</dd>
+		<dt>Version</dt><dd>{VERSION}</dd>
+		<dt>Effective from</dt><dd>{EFFECTIVE_EN}</dd>
+		<dt>Status</dt><dd>Current version</dd>
+		<dt>Languages</dt><dd>Armenian and English. In case of discrepancy, the Armenian text prevails (<a href="#clause-17-2">Clause 17.2</a>).</dd>
+	</dl>
+	<p>The Appendices form an integral part of this Agreement: <a href="order-form.html">Appendix 1 – Order Form</a>, <a href="terms.html">Appendix 2 – Terms of Service</a>, <a href="privacy.html">Appendix 3 – Privacy Policy</a>, <a href="data-deletion.html">Appendix 4 – Data Deletion Policy</a>, <a href="editorial-policy.html">Appendix 5 – Model Comment Moderation Editorial Policy</a>. Previous versions: see <a href="#version-history">Version history</a>.</p>
+	<div class="legal-actions">{pdf_button(MSA_PDF)}{order_btn_en}</div>
+</div>'''
+
+    meta_hy = f'''<div class="legal-meta only-hy" lang="hy">
+	<span class="legal-badge">Ծառայությունների մատուցման հիմնական պայմանագիր · Հրապարակային օֆերտա</span>
+	<dl>
+		<dt>Փաստաթուղթ</dt><dd>«moderAItor» արհեստական բանականությամբ օժտված մոդերացիոն գործիքի ծառայությունների մատուցման հիմնական պայմանագիր (MSA)</dd>
+		<dt>Խմբագրություն</dt><dd>{VERSION}</dd>
+		<dt>Գործում է</dt><dd>{EFFECTIVE_HY}-ից</dd>
+		<dt>Կարգավիճակ</dt><dd>Գործող խմբագրություն</dd>
+		<dt>Լեզուներ</dt><dd>Հայերեն և անգլերեն։ Անհամապատասխանության դեպքում գերակայում է հայերեն տեքստը (<a href="#clause-17-2">կետ 17.2</a>)։</dd>
+	</dl>
+	<p>Սույն Պայմանագրի անբաժանելի մասն են կազմում դրա Հավելվածները՝ <a href="order-form.html">Հավելված 1 – Պատվերի ձև</a>, <a href="terms.html">Հավելված 2 – Ծառայությունների մատուցման պայմաններ</a>, <a href="privacy.html">Հավելված 3 – Գաղտնիության քաղաքականություն</a>, <a href="data-deletion.html">Հավելված 4 – Տվյալների ոչնչացման քաղաքականություն</a>, <a href="editorial-policy.html">Հավելված 5 – Մեկնաբանությունների մոդերացիայի օրինակելի խմբագրական քաղաքականություն</a>։ Նախորդ խմբագրությունները՝ տե՛ս <a href="#version-history">Խմբագրությունների պատմություն</a>։</p>
+	<div class="legal-actions">{pdf_button(MSA_PDF)}{order_btn_hy}</div>
+</div>'''
+
+    history = f'''<div id="version-history">
+<div class="only-en">
+<h3 class="mt-5 mb-3">Version history</h3>
 <table class="version-table">
 	<thead><tr><th>Version</th><th>Effective from</th><th>Status</th><th>Changes</th><th>Permanent link</th></tr></thead>
 	<tbody>
-		<tr><td>{VERSION}</td><td>{EFFECTIVE_EN}</td><td>Current</td><td>Initial version of the public offer.</td><td><a href="msa-v{VERSION}.html">msa-v{VERSION}.html</a> · <a href="{MSA_DOCX}" download>DOCX</a></td></tr>
+		<tr><td>{VERSION}</td><td>{EFFECTIVE_EN}</td><td>Current</td><td>Initial version of the public offer.</td><td><a href="msa-v{VERSION}.html">msa-v{VERSION}.html</a> · <a href="{MSA_PDF}" download>PDF</a></td></tr>
 	</tbody>
 </table>
-<p class="text-muted small">Each version of the Agreement remains available at its permanent link after an update. Amendments are notified and enter into force in accordance with Section 16 of the Agreement.</p>'''
+<p class="text-muted small">Each version of the Agreement remains available at its permanent link after an update. Amendments are notified and enter into force in accordance with <a href="#section-16">Section 16</a> of the Agreement.</p>
+</div>
+<div class="only-hy" lang="hy">
+<h3 class="mt-5 mb-3">Խմբագրությունների պատմություն</h3>
+<table class="version-table">
+	<thead><tr><th>Խմբագրություն</th><th>Գործում է</th><th>Կարգավիճակ</th><th>Փոփոխություններ</th><th>Մշտական հղում</th></tr></thead>
+	<tbody>
+		<tr><td>{VERSION}</td><td>{EFFECTIVE_HY}</td><td>Գործող</td><td>Հրապարակային օֆերտայի նախնական խմբագրություն։</td><td><a href="msa-v{VERSION}.html">msa-v{VERSION}.html</a> · <a href="{MSA_PDF}" download>PDF</a></td></tr>
+	</tbody>
+</table>
+<p class="text-muted small">Պայմանագրի յուրաքանչյուր խմբագրություն թարմացումից հետո մնում է հասանելի իր մշտական հղումով։ Փոփոխությունները ծանուցվում և ուժի մեջ են մտնում Պայմանագրի <a href="#section-16">16-րդ գլխի</a> համաձայն։</p>
+</div>
+</div>'''
 
-    body = '\n'.join([banner, meta, toggle, toc_html, '<div class="bi">', *out, '</div>', history])
+    body = '\n'.join([toggle, banner, meta_en, meta_hy, toc_html, '<div class="bi">', *out, '</div>', history])
     return body
 
 
@@ -541,14 +595,14 @@ open(os.path.join(OUT, 'msa.html'), 'w').write(page(
     title='Master Service Agreement (Public Offer) - moderAItor',
     description=f'moderAItor Master Service Agreement (MSA), public offer, version {VERSION}, effective from {EFFECTIVE_EN}. Armenian and English text with all appendices.',
     h1='Master Service Agreement', crumb='Master Service Agreement',
-    body_html=msa_body, extra_script=LANG_SCRIPT))
+    body_html=msa_body, extra_script=LANG_SCRIPT, bilingual=True))
 
 open(os.path.join(OUT, f'msa-v{VERSION}.html'), 'w').write(page(
     file=f'msa-v{VERSION}.html',
     title=f'Master Service Agreement v{VERSION} (archived copy) - moderAItor',
     description=f'Archived copy of the moderAItor Master Service Agreement version {VERSION}, effective from {EFFECTIVE_EN}.',
     h1=f'Master Service Agreement · Version {VERSION}', crumb=f'MSA v{VERSION}',
-    body_html=build_msa(archived=True), extra_script=LANG_SCRIPT, noindex=True))
+    body_html=build_msa(archived=True), extra_script=LANG_SCRIPT, noindex=True, bilingual=True))
 
 
 # ---------------------------------------------------------------- Order form
@@ -623,7 +677,7 @@ order_meta = f'''<div class="legal-meta">
 	<p>This Order Form is an integral part of the <a href="msa.html">moderAItor Master Service Agreement (public offer)</a>. Signing or confirming the Order in the manner set out in Clauses 1.6 and 2.4 of the MSA constitutes acceptance of the Agreement and all its Appendices.</p>
 	<p><strong>How to use:</strong> download the form, fill in Sections 1–4, and send it signed with an electronic digital signature, or confirm it from the email address specified in the Order, to <strong>info@moderaitor.app</strong>. The text below is published for reference.</p>
 	<div class="legal-actions">
-		<a class="btn swap-icon" href="{ORDER_DOCX}" download><i class="fa-solid fa-file-word"></i>Download Order Form (DOCX, AM/EN)</a>
+		{pdf_button(ORDER_PDF, primary=True)}
 	</div>
 </div>'''
 
@@ -631,7 +685,7 @@ order_history = f'''<h3 id="version-history" class="mt-5 mb-3">Version history �
 <table class="version-table">
 	<thead><tr><th>Version</th><th>Effective from</th><th>Status</th><th>Changes</th><th>File</th></tr></thead>
 	<tbody>
-		<tr><td>{VERSION}</td><td>{EFFECTIVE_EN}</td><td>Current</td><td>Initial version, published together with MSA version {VERSION}.</td><td><a href="{ORDER_DOCX}" download>DOCX</a></td></tr>
+		<tr><td>{VERSION}</td><td>{EFFECTIVE_EN}</td><td>Current</td><td>Initial version, published together with MSA version {VERSION}.</td><td><a href="{ORDER_PDF}" download>PDF</a></td></tr>
 	</tbody>
 </table>
 <p class="text-muted small">Previous versions of the form remain available for download after each update.</p>'''
@@ -661,7 +715,7 @@ editorial_body = f'''<div class="legal-meta">
 	</dl>
 	<p>This Appendix is a model document referred to in Clauses 1.5, 1.8 and 5.2.4 of the <a href="msa.html">moderAItor Master Service Agreement</a>. It is a template that media and civil society organizations may adopt, in full or with amendments, as their own public policy for moderating comments on their pages. It is binding on a Client only to the extent the Client has adopted it as its own moderation policy (Clause 1.8 of the MSA). Previous versions: see <a href="#version-history">Version history</a>.</p>
 	<div class="legal-actions">
-		<a class="btn btn-bordered swap-icon" href="{POLICY_PDF}" download><i class="fa-solid fa-file-pdf"></i>Download PDF (AM)</a>
+		{pdf_button(POLICY_PDF)}
 	</div>
 </div>
 
