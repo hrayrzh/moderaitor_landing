@@ -98,6 +98,15 @@ body.lang-hy .bi-row, body.lang-en .bi-row { grid-template-columns: 1fr; }
 .version-table th, .version-table td { border: 1px solid #e3e7ee; padding: 8px 12px; text-align: left; vertical-align: top; }
 .version-table th { background-color: #f3f6fb; }
 
+.policy-title { font-size: 1.35rem; text-align: center; margin: 0 0 20px; }
+.policy-credits { background-color: #f8f9fb; border-radius: 0.5rem; padding: 16px 20px; margin-bottom: 24px; font-size: 0.95rem; }
+.policy-credits p { margin: 0 0 8px; }
+.policy-credits p:last-child { margin-bottom: 0; }
+.policy-text h4 { font-size: 1.05rem; }
+.policy-text p[id^="policy-c"] { padding-left: 1.5em; text-indent: -1.5em; }
+.policy-text p[id^="policy-c"] strong { display: inline-block; min-width: 1.5em; text-indent: 0; }
+.policy-text ul { margin-bottom: 16px; }
+
 .order-form h2 { font-size: 1.35rem; text-align: center; margin: 0 0 4px; }
 .order-form h2 + h2 { color: #5a6270; font-weight: 400; margin-bottom: 20px; }
 .order-form h3 { font-size: 1.15rem; margin: 28px 0 12px; padding-bottom: 6px; border-bottom: 2px solid #4087F5; }

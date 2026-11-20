@@ -643,31 +643,47 @@ open(os.path.join(OUT, 'order-form.html'), 'w').write(page(
     h1='Order Form', crumb='Appendix 1 · Order Form',
     body_html=order_meta + '\n<div class="order-form">\n' + build_order() + '\n</div>\n' + order_history))
 
-# ---------------------------------------------------------------- Appendix 5 placeholder
+# ---------------------------------------------------------------- Appendix 5
+sys.path.insert(0, HERE)
+import editorial_policy  # noqa: E402
+
+POLICY_PDF = 'assets/docs/moderAItor_Editorial_Policy_v1.0_AM.pdf'
+policy_text = open(os.path.join(SCRATCH, 'editorial-policy.txt'), encoding='utf-8').read()
+
 editorial_body = f'''<div class="legal-meta">
 	<span class="legal-badge">Appendix 5 to the Master Service Agreement</span>
 	<dl>
-		<dt>Document</dt><dd>Model Comment Moderation Editorial Policy · <span lang="hy">Մեկնաբանությունների մոդերացիայի օրինակելի խմբագրական քաղաքականություն</span></dd>
-		<dt>Status</dt><dd>In preparation</dd>
+		<dt>Document</dt><dd>Model Comment Moderation Editorial Policy · <span lang="hy">Մեկնաբանությունների մոդերացիայի խմբագրական քաղաքականություն</span></dd>
+		<dt>Version</dt><dd>{VERSION}</dd>
+		<dt>Effective from</dt><dd>{EFFECTIVE_EN} · <span lang="hy">{EFFECTIVE_HY}</span></dd>
+		<dt>Status</dt><dd>Current version</dd>
+		<dt>Language</dt><dd>Armenian</dd>
 	</dl>
-	<p>This Appendix is a model document referred to in Clauses 1.5, 1.8 and 5.2.4 of the <a href="msa.html">moderAItor Master Service Agreement</a>. It is binding on the Client only to the extent the Client has adopted it as its own moderation policy.</p>
+	<p>This Appendix is a model document referred to in Clauses 1.5, 1.8 and 5.2.4 of the <a href="msa.html">moderAItor Master Service Agreement</a>. It is a template that media and civil society organizations may adopt, in full or with amendments, as their own public policy for moderating comments on their pages. It is binding on a Client only to the extent the Client has adopted it as its own moderation policy (Clause 1.8 of the MSA). Previous versions: see <a href="#version-history">Version history</a>.</p>
+	<div class="legal-actions">
+		<a class="btn btn-bordered swap-icon" href="{POLICY_PDF}" download><i class="fa-solid fa-file-pdf"></i>Download PDF (AM)</a>
+	</div>
 </div>
 
-<h3 class="mt-4 mb-3">About this document</h3>
-<p>The Model Comment Moderation Editorial Policy is a template that media organizations and civil society organizations can adopt, in full or with amendments, as their own public editorial policy for moderating comments on their social media pages. It describes what kinds of comments are not allowed, how flagged comments are reviewed, how temporary hiding and final decisions work, and how users can raise objections.</p>
-<p>Under Clause 5.2.4 of the Master Service Agreement, each Client must develop, define and apply a publicly available, transparent and lawful moderation policy, and may use this model policy as a basis.</p>
+<div lang="hy" class="policy-text">
+<h2 class="policy-title">Մեկնաբանությունների մոդերացիայի խմբագրական քաղաքականություն</h2>
+{editorial_policy.CREDITS}
+{editorial_policy.build_body(policy_text)}
+</div>
 
-<h3 class="mt-4 mb-3">Publication</h3>
-<p>The text of the model policy is being finalized and will be published on this page in Armenian and English. Once published, it will carry its own version number and effective date, and previous versions will remain available at permanent links.</p>
-<p lang="hy">Օրինակելի քաղաքականության տեքստը վերջնականացվում է և կհրապարակվի այս էջում հայերեն և անգլերեն։</p>
-
-<h3 class="mt-4 mb-3">Contact</h3>
-<p>For questions about moderation policies or for consulting support in developing your own editorial policy (Clause 3.2(H) of the MSA), contact <strong>info@moderaitor.app</strong>.</p>'''
+<h3 id="version-history" class="mt-5 mb-3">Version history · <span lang="hy">Խմբագրությունների պատմություն</span></h3>
+<table class="version-table">
+	<thead><tr><th>Version</th><th>Effective from</th><th>Status</th><th>Changes</th><th>File</th></tr></thead>
+	<tbody>
+		<tr><td>{VERSION}</td><td>{EFFECTIVE_EN}</td><td>Current</td><td>Initial version, published as Appendix 5 to MSA version {VERSION}.</td><td><a href="{POLICY_PDF}" download>PDF</a></td></tr>
+	</tbody>
+</table>
+<p class="text-muted small">Previous versions remain available at permanent links after each update.</p>'''
 
 open(os.path.join(OUT, 'editorial-policy.html'), 'w').write(page(
     file='editorial-policy.html',
     title='Model Comment Moderation Editorial Policy (Appendix 5) - moderAItor',
-    description='Model Comment Moderation Editorial Policy, Appendix 5 to the moderAItor Master Service Agreement. A template moderation policy for media and civil society organizations.',
+    description='Model Comment Moderation Editorial Policy (Armenian), Appendix 5 to the moderAItor Master Service Agreement. A template moderation policy for media and civil society organizations, developed by the All for Equal Rights Foundation.',
     h1='Model Editorial Policy', crumb='Appendix 5 · Editorial Policy',
     body_html=editorial_body))
 

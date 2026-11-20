@@ -24,6 +24,14 @@ Cross-references ("Privacy Policy", "Appendix 3", "Clause 1.6", "Section 16",
 and their Armenian forms) are turned into links automatically; every numbered
 clause gets an anchor `#clause-1-6`, every section `#section-16`.
 
+Appendix 5 (`editorial-policy.html`) is generated from `data/editorial-policy.txt`,
+which is the text of the lawyer's PDF extracted with
+`pdftotext assets/docs/moderAItor_Editorial_Policy_v1.0_AM.pdf tools/legal/data/editorial-policy.txt`
+(no `-layout`). `editorial_policy.py` turns it into headings, clauses, lists and
+the glossary; the cover-page credits are written by hand in `CREDITS` there.
+For a new version: replace the PDF, re-extract the text, update `POLICY_PDF`
+and the version-history row in `build_legal.py`, regenerate.
+
 Appendices 2–4 (`terms.html`, `privacy.html`, `data-deletion.html`) are
 ordinary hand-edited pages; they carry a `legal-meta` header and a
 version-history table that must be updated by hand on each change.
