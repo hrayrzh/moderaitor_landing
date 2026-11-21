@@ -38,3 +38,12 @@ and the version-history row in `build_legal.py`, regenerate.
 Appendices 2–4 (`terms.html`, `privacy.html`, `data-deletion.html`) are
 ordinary hand-edited pages; they carry a `legal-meta` header and a
 version-history table that must be updated by hand on each change.
+
+## Social preview image
+
+`assets/img/og-image.png` (1200×630, used by `og:image` / `twitter:image` on every
+page) is rendered from `tools/og/og-image.html`: serve the repo locally, open that
+file in Chrome at a 1200×630 viewport, screenshot, downscale to 1200×630 if the
+screenshot is 2x. After replacing the image, ask LinkedIn / Facebook to re-scrape
+(LinkedIn Post Inspector, Facebook Sharing Debugger), otherwise they keep the old
+cached preview.

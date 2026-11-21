@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>moderAItor OG image template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+	/* Render at 1200x630 (see tools/og/README in tools/legal/README.md) */
+	html, body { margin: 0; padding: 0; background: #1c213b; }
+	.card {
+		position: relative;
+		width: 1200px; height: 630px; overflow: hidden;
+		background: radial-gradient(900px 600px at 85% 15%, #2b3a6b 0%, #1c213b 60%);
+		font-family: 'Poppins', sans-serif; color: #fff;
+	}
+	.glow {
+		position: absolute; right: -120px; bottom: -220px; width: 620px; height: 620px; border-radius: 50%;
+		background: radial-gradient(circle, rgba(64,135,245,.55) 0%, rgba(64,135,245,0) 70%);
+	}
+	.text { position: absolute; left: 72px; top: 72px; width: 640px; }
+	.brand { display: flex; align-items: center; gap: 18px; margin-bottom: 44px; }
+	.brand img { width: 64px; height: 64px; filter: brightness(0) invert(1); }
+	.brand span { font-size: 34px; font-weight: 600; letter-spacing: .5px; }
+	.brand span b { color: #4087F5; font-weight: 700; }
+	h1 { margin: 0 0 24px; font-size: 56px; line-height: 1.12; font-weight: 700; letter-spacing: -.5px; }
+	p { margin: 0; font-size: 24px; line-height: 1.45; color: #cfd6e6; font-weight: 400; }
+	.url { position: absolute; left: 72px; bottom: 56px; font-size: 24px; font-weight: 500; color: #4087F5; }
+	.shot {
+		position: absolute; right: 60px; top: 90px; width: 400px;
+		border-radius: 18px; box-shadow: 0 30px 80px rgba(0,0,0,.45);
+		transform: rotate(-4deg);
+	}
+</style>
+</head>
+<body>
+<div class="card">
+	<div class="glow"></div>
+	<div class="text">
+		<div class="brand"><img src="../../assets/img/logo/logo.png" alt=""><span>moder<b>AI</b>tor</span></div>
+		<h1>AI assisted moderation for safer public conversations</h1>
+		<p>Detect hate speech and coordinated harassment in public comments on Facebook, Instagram and YouTube. Human-led decisions.</p>
+	</div>
+	<img class="shot" src="../../assets/img/content/hero-thumb-2.png" alt="">
+	<div class="url">moderaitor.app</div>
+</div>
+</body>
+</html>
